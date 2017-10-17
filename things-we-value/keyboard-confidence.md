@@ -10,10 +10,10 @@ How fast should you be? **Disclaimer: this is my opinion** : I've found once you
 
 Investing 15 minutes each day on improving your typing is often the best approach.
 
-## Resources to sharpen the saw
+## Useful tools to sharpen the saw
 
 [Typing Master 10 for Windows](http://www.typingmaster.com/) - this is probably one of the best typing tutorials out there, unfortunately for windows.
 
-## Staying sharp  
+## Useful tools to stay sharp  
 
 [TypeRacer](http://play.typeracer.com/) - a great way to keep the saw sharp by racing other people in typing  
