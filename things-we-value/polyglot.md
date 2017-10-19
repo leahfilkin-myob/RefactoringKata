@@ -18,6 +18,8 @@ Some of the languages we use at MYOB include:
 
 ### C#  
 
+#### The Fundamentals   
+
 [Try C# Course](https://www.codeschool.com/courses/try-c-sharp)  
 [Keeping it Classy with C# Course](https://www.codeschool.com/courses/keeping-it-classy-with-c-sharp )  
 
@@ -29,6 +31,8 @@ Some of the languages we use at MYOB include:
 
 ### JavaScript  
 
+#### The Fundamentals   
+
 [JavaScript RoadTrip 1](https://www.codeschool.com/courses/javascript-road-trip-part-1)  
 [JavaScript RoadTrip 2](https://www.codeschool.com/courses/javascript-road-trip-part-2)  
 [JavaScript RoadTrip 3](https://www.codeschool.com/courses/javascript-road-trip-part-3)  
@@ -36,11 +40,15 @@ Some of the languages we use at MYOB include:
   
 ### Ruby
 
+#### The Fundamentals   
+
 [Try Ruby](https://www.codeschool.com/courses/try-ruby)  
 [Ruby Bits](https://www.codeschool.com/courses/ruby-bits)  
 [Ruby Bits Part 2](https://www.codeschool.com/courses/ruby-bits-part-2)  
 
 ### Elixir  
+
+#### The Fundamentals   
 
 [Try Elixir](https://www.codeschool.com/courses/try-elixir)  
 [Mixing it up with Elixir](https://www.codeschool.com/courses/mixing-it-up-with-elixir)  
