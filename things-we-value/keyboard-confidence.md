@@ -17,3 +17,4 @@ Investing 15 minutes each day on improving your typing is often the best approac
 ## Useful tools to stay sharp  
 
 [TypeRacer](http://play.typeracer.com/) - a great way to keep the saw sharp by racing other people in typing  
+[Typing IO](http://typing.io/) - programming typing tutorials  
