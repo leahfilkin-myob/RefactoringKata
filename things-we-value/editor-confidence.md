@@ -15,4 +15,4 @@ As a software developer you will write a lot of code over the span of your caree
 
 ## Useful tools to sharpen the saw
 
-* [ShortcutFoo](https://www.shortcutfoo.com/) - Gamify learning keyboard shortcuts  
+* [ShortcutFoo](https://www.shortcutfoo.com/) - Gamify learning keyboard shortcuts for various editors  
