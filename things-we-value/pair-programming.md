@@ -6,7 +6,7 @@ Pair programming originates from XP. Its the practice of two developers working 
 
 Practice, pair with as many people as possible. 
 
-[Code Retreats](http://coderetreat.org/) are a great way to get experience pairing.
+[Code Retreats](http://coderetreat.org/) are a great way to get experience pairing. Find a CodeRetreat group in your area and attend an event.
 
 ## Principles
 
