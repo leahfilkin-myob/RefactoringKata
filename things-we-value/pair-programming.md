@@ -1,6 +1,6 @@
 # Pair Programming
 
-Pair programming originates from XP. Its the practice of two developers working at a single computer solving a problem together. Pair programming is one of the best ways to learn from other developersand is encouraged at MYOB.
+Pair programming originates from XP. Its the practice of two developers working at a single computer solving a problem together. Pair programming is one of the best ways to learn from other developers and is encouraged at MYOB.
 
 ## How to best learn
 
