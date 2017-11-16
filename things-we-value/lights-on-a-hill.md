@@ -1,1 +1,0 @@
-# Lights on a hill  
