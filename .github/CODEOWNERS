@@ -1,0 +1,4 @@
+# Default owners for everything in the repo.
+*    @MarkPearlMYOB @brettcarr @holmesjr @dueckes @jason-dwyer-myob @mattdunn-myob @tommyrpeterson @JohnContad
+
+# Order is important. The last matching pattern has the most precedence.
