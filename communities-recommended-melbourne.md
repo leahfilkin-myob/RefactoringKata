@@ -9,7 +9,7 @@
 * DevOps Community of Practice #cop-devops
 * Functional Programming Community of Practice #cop-fp
 * NodeJS Community of Practice #cop-nodejs
-* Scala Community of Practice #cop-nodejs
+* Scala Community of Practice #cop-scala
 * Technical Leadership Community of Practice #cop-technical-leaders
 
 ## Area Developer Communities
