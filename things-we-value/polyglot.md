@@ -20,7 +20,7 @@ One of the best ways to learn a language is to practice it daily; CodeWars is a 
 
 Once you have completed a kata you can see how others have done it, giving you insights into alternative ways of solving programming problems..
 
-If you do not have a CodeWars account yet [sign up here](www.codewars.com/r/F6YZ4A), set your clan to MYOB and you will see all other MYOB's on the site as allies.
+If you do not have a CodeWars account yet [sign up here](https://www.codewars.com/r/F6YZ4A), set your clan to MYOB and you will see all other MYOB's on the site as allies.
 
 The Pearl Promise is... "if you do at least one [CodeWars](https://www.codewars.com) Level 8 or Level 7 kyu kata a day for at least 4 weeks, reviewing what other people have submitted, you will become fluent in that language in no time".
 
