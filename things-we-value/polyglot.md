@@ -2,8 +2,8 @@
 
 ## Basics
 
-* Be comfortable in at least one strongly typed programming language used at MYOB
-* Be comfortable in at least one dyanmic programming language used at MYOB
+* Be comfortable in at least one strongly typed programming language used at MYOB (C#, Java, Scala)
+* Be comfortable in at least one dyanmic programming language used at MYOB (JavaScript, Ruby, Elixir)  
 
 Some of the languages we use at MYOB include:
 
@@ -13,6 +13,16 @@ Some of the languages we use at MYOB include:
 * JavaScript  
 * Ruby  
 * Elixir  
+
+## Using CodeWars to learn a programming language
+
+One of the best ways to learn a language is to practice it daily; CodeWars is a site that provides kata's (or problems to solve)  in various programming languages. 
+
+Once you have completed a kata you can see how others have done it, giving you insights into alternative ways of solving programming problems..
+
+If you do not have a CodeWars account yet [sign up here](https://www.codewars.com/r/F6YZ4A), set your clan to MYOB and you will see all other MYOB's on the site as allies.
+
+The Pearl Promise is... "if you do at least one [CodeWars](https://www.codewars.com) Level 8 or Level 7 kyu kata a day for at least 4 weeks, reviewing what other people have submitted, you will become fluent in that language in no time".
 
 ## Strongly Typed Programming Languages
 
