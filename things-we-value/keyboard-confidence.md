@@ -19,3 +19,8 @@ Investing 15 minutes each day on improving your typing is often the best approac
 
 [TypeRacer](http://play.typeracer.com/) - a great way to keep the saw sharp by racing other people in typing  
 [Typing IO](http://typing.io/) - programming typing tutorials  
+
+## Blog posts to read
+
+* [We are Typists first, Programmers second](https://blog.codinghorror.com/we-are-typists-first-programmers-second/)   
+* [Put down the mouse](https://blog.codinghorror.com/going-commando-put-down-the-mouse/)  

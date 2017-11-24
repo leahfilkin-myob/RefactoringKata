@@ -16,3 +16,8 @@ As a software developer you will write a lot of code over the span of your caree
 ## Useful tools to sharpen the saw
 
 * [ShortcutFoo](https://www.shortcutfoo.com/) - Gamify learning keyboard shortcuts for various editors  
+
+## Blog posts to read
+
+* [We are Typists first, Programmers second](https://blog.codinghorror.com/we-are-typists-first-programmers-second/)   
+* [Put down the mouse](https://blog.codinghorror.com/going-commando-put-down-the-mouse/)  
