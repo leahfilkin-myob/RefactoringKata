@@ -28,6 +28,8 @@ Install both MySQL and PostgreSQL on your laptop, and try to create tables on th
 
 [PACELC Theorem](https://en.wikipedia.org/wiki/PACELC_theorem) is an extension to CAP Theorem which accounts for operation when no network partitioning or errors occur. This also encompasses NoSQL or BASE databases.
 
+[Database Normalization](http://www.studytonight.com/dbms/database-normalization.php) are techniques on how to organize database columns to reduce redundancy and improve data integrity. Understand *why* we organize our databases in different ways.
+
 ## Checkpoint 2: Explain databases
 
 Explain when you would use MySQL over PostgreSQL - and when ACID compliance would matter the most.
