@@ -1,7 +1,7 @@
 # Design Patterns
-When it comes to software, Design Patterns are general solutions to problems we have found to be reoccurring. These solutions are not pieces of code that can be copied but rather a template that when understood and implemented correctly which can add long-term value to an application.
+Design Patterns are general solutions to recurring software development problems. These solutions are not pieces of code that can be copied but rather a template that, when understood and implemented correctly, can add long-term value to an application.
 
-In many cases, specefic patterns are seen as a best practice and by making uses of these patterns it not only aids your application but also others whom may interact with the code at some point (help them understand the process and intent). 
+In many cases, specific patterns are seen as a best practice and making uses of these patterns not only aids your application but also others who may interact with the code at some point (helping them understand the process and intent). 
 
 Design patterns are not constrained to any particular language and can be implemented to its full benefit, depending on language capabilities. 
 
@@ -9,15 +9,15 @@ Design patterns are not constrained to any particular language and can be implem
 
 - Structural
 
-  These patterns exist to deal with the relationships between entities. Simplifying the way in which they work together.
+  These patterns exist to simplify the relationships between entities.
   
 - Creational
 
-  These patterns provide ways it which entities are created. Simplifying the way in which they are created suited forthe         situation.
+  These patterns simplify the way in which entities are created.
 
 - Behavioural
 
-  These patterns help with the communication between entities, making it easier and more flexible in the way they communicate.
+  These patterns make for easier and more flexible communication between entities.
 
 ### Blog posts to read
 
