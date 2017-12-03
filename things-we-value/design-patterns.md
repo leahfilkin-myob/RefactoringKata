@@ -1,7 +1,7 @@
 # Design Patterns
 Design Patterns are general solutions to recurring software development problems. These solutions are not pieces of code that can be copied but rather a template that, when understood and implemented correctly, can add long-term value to an application.
 
-In many cases, specific patterns are seen as a best practice and making uses of these patterns not only aids your application but also others who may interact with the code at some point (helping them understand the process and intent). 
+In many cases, specific patterns are seen as a sensible defaults and making use of these patterns not only aids your application but also others who may interact with the code at some point (helping them understand the process and intent). 
 
 Design patterns are not constrained to any particular language and can be implemented to its full benefit, depending on language capabilities. 
 
