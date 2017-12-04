@@ -12,4 +12,4 @@ Please see the [contribution guidelines](CONTRIBUTING.md)
 
 ## Who can I contact?
 
-Slack: [#fm-grad-to-awesome](https://myob.slack.com/messages/C728HGCLD)
+Slack: [#fm-academy](https://myob.slack.com/messages/C728HGCLD)
