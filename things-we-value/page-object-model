@@ -1,0 +1,9 @@
+Page Object Model for Acceptance Tests Design: 
+ Page object model is one of the preferred test design pattern for UI tests. It helps in :
+  - Encapsulation 
+  - Increases test readability - Cleaner code
+  - Separation of responsibilty
+  - Refactoring tests becomes easier
+  
+  Links: 
+  https://www.martinfowler.com/bliki/PageObject.html
