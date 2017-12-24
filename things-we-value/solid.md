@@ -31,7 +31,6 @@ Abstractions should not depend on details. Details should depend on abstractions
 * [Interface segregation (DZone)](https://dzone.com/articles/solid-principles-by-example-interface-segregation)
 * [Dependency inversion (DZone)](https://dzone.com/articles/solid-principles-by-example-dependency-inversion)
 
-
 ## Training Videos
 
 * [SOLID Principles with Uncle Bob](https://cleancoders.com/videos/clean-code/solid-principles)
@@ -41,3 +40,11 @@ Abstractions should not depend on details. Details should depend on abstractions
 
 * [From STUPID to SOLID Code!](http://williamdurand.fr/2013/07/30/from-stupid-to-solid-code/)
 
+## Expanding your understanding of SOLID
+
+* [MYOB Slack Discussion on SOLID](https://myob.slack.com/archives/C14NQ243V/p1512509052000052)  
+* [SOLID Clojure](https://www.infoq.com/presentations/SOLID-Clojure)  
+* [Why every element of SOLID is wrong](https://speakerdeck.com/tastapod/why-every-element-of-solid-is-wrong)  
+* [SOLID Princples of Object Oriented and Agile Design - Bob Martin](https://www.youtube.com/watch?v=TMuno5RZNeE)  
+* [SOLID Deconstruction by Kevlin Henney](https://vimeo.com/157708450)  
+* [Functional programming design patterns by Scott Wlaschin](https://vimeo.com/113588389)  
