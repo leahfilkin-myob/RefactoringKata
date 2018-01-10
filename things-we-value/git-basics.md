@@ -9,7 +9,8 @@ At MYOB we predominantly use Git & GitHub for version control. Knowing how to us
 
 ## Learning Games
 
-[Git Branching Game](http://pcottle.github.io/learnGitBranching/) - game for learning git branching and navigation
+[Git Branching Game](http://pcottle.github.io/learnGitBranching/) - game for learning git branching and navigation  
+[Git Exercises](https://gitexercises.fracz.com/) - learn and practice git, discover features
 
 ## Code School Tutorials
 
