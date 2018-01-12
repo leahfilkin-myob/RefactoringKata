@@ -1,6 +1,0 @@
-Test Pyramid
- Writing the tests at right layer is very important. It helps to create a balanced portfolio of your automated test suite. 
- Test pyramid ensures we have a faster feedback cycle with our tests. More here
- 
-Links:
-https://martinfowler.com/bliki/TestPyramid.html
