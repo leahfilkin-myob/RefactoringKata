@@ -103,7 +103,6 @@ DDD encourages teams to incorporate this knowledge into the software through [re
 In areas where a design does not feel right, DDD encourages teams to *crunch knowledge* in the domain and explore other concepts in the domain that can aid the design.
 
 ### Blog posts to read
-
 - [Domain Driven Design - what is it and how do you use it?](https://airbrake.io/blog/software-design/domain-driven-design)
 - [The Purpose Alignment Model - applied to software](http://toddlittleweb.com/wordpress/2014/06/22/the-purpose-alignment-model/)
 - [Event Storming - the initial concept](http://ziobrando.blogspot.com.au/2013/11/introducing-event-storming.html)
@@ -113,10 +112,14 @@ In areas where a design does not feel right, DDD encourages teams to *crunch kno
 - [Another curated list of DDD resources](https://github.com/heynickc/awesome-ddd)
 
 ### Videos to watch
-
 - [An animated introduction to DDD](https://www.youtube.com/playlist?list=PLIHVWAtJFACm4sffK5M_UxDg7k-xXI16F)
 - [An overview of the DDD book](https://www.youtube.com/watch?v=lMtC4ITgOIw)
 - [Reflections on modern DDD techniques - Tackling Complexity in the Heart of Software](https://www.youtube.com/watch?v=dnUFEg68ESM)
+
+## Internal references
+- [Slack channel - #sig-dddesign](https://myob.slack.com/messages/C51NDSYKU)
+- [Sensible default - use ubiquitous language](https://github.com/MYOB-Technology/platform-sensible-defaults/blob/master/design-defaults.md#use-a-ubiquitous-language)
+- [Sensible default - honour bounded contexts](https://github.com/MYOB-Technology/platform-sensible-defaults/blob/master/design-defaults.md#isolate-domains-in-bounded-contexts)
 
 ## More advanced stuff
 DDD thinking has brought about several architectural patterns that are increasing in prominence and worthy of consideration for any system:
