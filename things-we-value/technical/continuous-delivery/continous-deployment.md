@@ -1,6 +1,6 @@
 # Continous Deployment  
 
-### Defenition
+### Definition
 
 Continuous deployment is a software development practice in which every code change goes through the entire pipeline and is put into production, automatically, resulting in many production deployments every day.
 
