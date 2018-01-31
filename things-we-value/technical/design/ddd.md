@@ -131,3 +131,10 @@ On how DDD thinking impacts resource planning and organisation structure:
 
 ## Books to read
 - [Domain Driven Design](https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215)
+- [Domain Driven Design Distilled](https://www.amazon.com/Domain-Driven-Design-Distilled-Vaughn-Vernon/dp/0134434420)
+- [Event Storming (Alberto Brandolini)](https://leanpub.com/introducing_eventstorming)
+- [Patterns, Principles, and Practices of Domain-Driven Design (Scott Millett)](https://www.amazon.com/dp/1118714709/)
+
+## Courses
+- [Modern Software Architecture: Domain Models, CQRS, and Event Sourcing](https://app.pluralsight.com/library/courses/modern-software-architecture-domain-models-cqrs-event-sourcing/)
+- [Domain Driven Design Fundamentals](https://app.pluralsight.com/library/courses/domain-driven-design-fundamentals/table-of-contents)
