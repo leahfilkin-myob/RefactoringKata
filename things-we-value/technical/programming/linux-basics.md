@@ -24,3 +24,7 @@ Try to make a directory using your Mac terminal, and create a structure for wher
 
 Show the permissions of your current Documents and Desktop directories using `ls -la`
 
+## Resources
+
+- [The Art of Unix Programming](http://www.catb.org/esr/writings/taoup/)
+
