@@ -35,7 +35,11 @@ The Pearl Promise is... "if you do at least one [CodeWars](https://www.codewars.
 
 ### Java  
 
+[Learn Java Online](http://www.learnjavaonline.org/) - An introduction to Java syntax
+
 ### Scala
+
+[Scala Exercises](https://www.scala-exercises.org/) - A koan-style introduction to Scala
   
 ## Dynamicly Typed Programming Languages
 
@@ -52,6 +56,8 @@ The Pearl Promise is... "if you do at least one [CodeWars](https://www.codewars.
 
 #### The Fundamentals   
 
+[Ruby Monk](https://rubymonk.com/)
+[Ruby Koans](http://rubykoans.com/)
 [Try Ruby](https://www.codeschool.com/courses/try-ruby)  
 [Ruby Bits](https://www.codeschool.com/courses/ruby-bits)  
 [Ruby Bits Part 2](https://www.codeschool.com/courses/ruby-bits-part-2)  
