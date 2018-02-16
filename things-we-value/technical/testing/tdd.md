@@ -30,6 +30,10 @@ The TDD development cycle
 - [TDD with Uncle Bob Part 1](https://cleancoders.com/episode/clean-code-episode-6-p1/show)  
 - [TDD with Uncle Bob Part 2](https://cleancoders.com/episode/clean-code-episode-6-p2/show)  
 
+## Workshops
+
+- [Intro to Test-Driven Development](intro-to-tdd.pptx)
+
 ## Katas
 - [String Calculator Kata](https://github.com/MYOB-Technology/General_Developer/blob/master/katas/kata-string-calculator.md)  
 
