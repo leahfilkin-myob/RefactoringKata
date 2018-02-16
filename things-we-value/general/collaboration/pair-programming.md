@@ -22,6 +22,10 @@ Practice, pair with as many people as possible.
 - [Pair Programming explained by Kids](https://www.youtube.com/watch?v=vgkahOzFH2Q)  
 - [Joke on Pair Programming - Spooning by BitBucket](https://www.youtube.com/watch?v=dYBjVTMUQY0)  
 
+## Workshops
+
+- [Intro to Pair Programming](intro-to-pairing.pptx)
+
 ## Internal references
 - [Sensible default - pracitce collaborative development](https://github.com/MYOB-Technology/platform-sensible-defaults/blob/master/quality-defaults.md#collaborative-coding)
 
