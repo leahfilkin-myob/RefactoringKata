@@ -1,11 +1,10 @@
-# Recommended Auckland Communities
+# Recommended Melbourne Communities
 
 ## Internal MYOB Communities
 
 * MYOB Brown Bags #brown-bags
 * QA Community of Practice #cop-qa
 * BA Community of Practice #cop-ba
-* CRM Community of Practice #cop-crm
 * DevOps Community of Practice #cop-devops
 * Functional Programming Community of Practice #cop-fp
 * NodeJS Community of Practice #cop-nodejs
@@ -20,5 +19,12 @@
 * [Ruby on Rails Melbourne](https://www.meetup.com/Ruby-On-Rails-Oceania-Melbourne/)  
 * [Melbourne Software Testing MG](https://www.meetup.com/Melbourne-Software-Testing-Meetup-Group/)  
 * [Melbourne Front End Development](https://www.meetup.com/Melbourne-Front-end-Development-Meetup/)  
+* [Melbourne Docker User Group](https://www.meetup.com/en-AU/Melbourne-Docker-User-Group/)
+* [Melbourne Microservices](https://www.meetup.com/en-AU/Melbourne-Microservices/)
+* [Melbourne Serverless Meetup Group](https://www.meetup.com/en-AU/Melbourne-Serverless-Meetup-Group/)
 * [React Melbourne](https://www.meetup.com/React-Melbourne/)
 * [Node Melbourne](https://www.meetup.com/NodeMelbourne/)
+* [MelbJS](http://melbjs.com/)
+* [DevOps Melbourne](https://www.meetup.com/en-AU/devops-melbourne/)
+* [Leadership of Awesome](https://www.meetup.com/en-AU/Leadership-of-Awesome/)
+* [Startup Victoria's Meetup](https://www.meetup.com/en-AU/StartupVictoria/)
