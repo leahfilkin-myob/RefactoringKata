@@ -13,6 +13,8 @@
 
 ## Area Developer Communities
 
+
+* [Java &amp; JVM User Group](https://www.meetup.com/en-AU/Melbourne-Java-JVM-Users-Group/)  
 * [Scala User Group](https://www.meetup.com/Melbourne-Scala-User-Group/)  
 * [Melbourne Clojure Meetup](https://www.meetup.com/clj-melb/)  
 * [GoLang Melbourne](https://www.meetup.com/golang-mel/)  
