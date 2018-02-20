@@ -51,6 +51,7 @@ The Pearl Promise is... "if you do at least one [CodeWars](https://www.codewars.
 [JavaScript RoadTrip 2](https://www.codeschool.com/courses/javascript-road-trip-part-2)  
 [JavaScript RoadTrip 3](https://www.codeschool.com/courses/javascript-road-trip-part-3)  
 [ES2015 The Shape of JS to Come Course](https://www.codeschool.com/courses/es2015-the-shape-of-javascript-to-come)  
+[The Modern JavaScript Tutorial](https://javascript.info)
   
 ### Ruby
 
