@@ -24,7 +24,7 @@ The game is drawn when all fields are taken on the board.
 
 ------------------------------------------------------------------------------------------------------------
 
-## Level 1 - Basic Tic Tac Toe
+## Basic Tic Tac Toe
 
 We are going old school. 
 
@@ -92,25 +92,45 @@ The system should display appropriate messages for incorrect coordinates and a d
 
 ------------------------------------------------------------------------------------------------------------
 
-## Bad Computer Tic Tac Toe
+## Taking it to the next level...variations
 
-Implement a computer player for the game. 
+There are a number of possible customizations that can be added as well.
 
-### Constraints  
+### More User Friendly Tic Tac Toe
 
-* The computer player can pic a random position on the board each time but shouldn't pick a spot that has already been taken.  
-* The human player will always be represented by “O”, while the computer player will be represented by 'X'.  
-* Users should be able to play as many rounds as they want without having to restart the application.  
+Allows users to customize their game.
+
+* Allow players to pick their markers (standard is X and O)  
+* Allow players to decide who goes first  
+* Allow games to be saved and resumed later  
+* Allow users to be able to play as many rounds as they want without having to restart the application.  
 
 ------------------------------------------------------------------------------------------------------------
 
-## Any size Tic Tac Toe
+### Any size Tic Tac Toe
 
 Refactor your code to allow Tic Tac Toe to work on any size grid. 
 
-### Constraints
+#### Constraints
 
 * At the beginning of a game you should be able to determine what sized board you want to play - it should default to on a 3x3 but any size is doable up to a 10x10.
+
+------------------------------------------------------------------------------------------------------------
+
+### Bad Computer Tic Tac Toe
+
+Implement a computer player for the game that is really bad.
+
+#### Constraints  
+
+* The computer player can pic a random position on the board each time but shouldn't pick a spot that has already been taken.  
+* The human player will always be represented by “O”, while the computer player will be represented by 'X'.  
+
+------------------------------------------------------------------------------------------------------------
+
+### Good Computer Tic Tac Toe
+
+Implement a computer player for the game that is really good. The computer player should never loose and will win where possible.  
 
 #### References  
 
