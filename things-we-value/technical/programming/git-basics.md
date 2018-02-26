@@ -42,9 +42,9 @@ Git and GitHub are great tools for collaborating on a project. One way to collab
 
 ## Resources
 
-[GitHub Guides](https://guides.github.com/) - tutorials from GitHub on using git and GitHub
+[GitHub Guides](https://guides.github.com/) - tutorials from GitHub on using git and GitHub  
 [Git Branching Game](http://pcottle.github.io/learnGitBranching/) - game for learning git branching and navigation  
-[Git Exercises](https://gitexercises.fracz.com/) - learn and practice git, discover features
+[Git Exercises](https://gitexercises.fracz.com/) - learn and practice git, discover features  
 [Try Git Course](https://www.codeschool.com/courses/try-git)  
 [Git Real Course]( https://www.codeschool.com/courses/git-real)  
 [Mastering GitHub Course](https://www.codeschool.com/courses/mastering-github)  
