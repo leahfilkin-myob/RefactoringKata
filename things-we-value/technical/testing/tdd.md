@@ -35,7 +35,7 @@ The TDD development cycle
 - [Intro to Test-Driven Development](intro-to-tdd.pptx)
 
 ## Katas
-- [String Calculator Kata](https://github.com/MYOB-Technology/General_Developer/blob/master/katas/kata-string-calculator.md)  
+- [String Calculator Kata](https://github.com/MYOB-Technology/General_Developer/blob/master/katas/kata-string-calculator/kata-string-calculator.md)  
 
 ## Internal references
 - [Slack channel - #sig-tdd](https://myob.slack.com/messages/C89U71VKQ)
