@@ -80,7 +80,7 @@ Add("-1,2,-3") > Throws exception with Negatives not allowed: -1, -3
 
 ### Step 8 
 
-Numbers bigger than 1000 should be ignored.  
+Numbers greater or equal to 1000 should be ignored.  
 
 ~~~
 Add("1000,1001,2") > Returns 2  
