@@ -3,7 +3,7 @@
 ## Basics
 
 * Be comfortable in at least one strongly typed programming language used at MYOB (C#, Java, Scala)
-* Be comfortable in at least one dyanmic programming language used at MYOB (JavaScript, Ruby, Elixir)  
+* Be comfortable in at least one dynamic programming language used at MYOB (JavaScript, Ruby, Elixir)
 
 Some of the languages we use at MYOB include:
 
