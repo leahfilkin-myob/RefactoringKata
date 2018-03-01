@@ -29,7 +29,16 @@ Try to make a directory using your Mac terminal, and create a structure for wher
 
 Show the permissions of your current Documents and Desktop directories using `ls -la`
 
+## Checkpoint: Exercise 3
+
+Create a Virtual Machine on your computer and install [Ubuntu](https://www.ubuntu.com) Desktop into that VM.  This will give you a safe place to play around with the knowledge that you won't break anything.
+
+## Checkpoint: Exercise 4
+
+Use SSH to connect to a remote server using an SSH key for authentication.
+
 ## Resources
 
 - [The Art of Unix Programming](http://www.catb.org/esr/writings/taoup/)
-
+- [Linux Command Line Basics](https://app.pluralsight.com/library/courses/linux-cli-fundamentals/table-of-contents) - Pluralsight course  
+- [Terminal game](http://www.mprat.org/Terminus/)
