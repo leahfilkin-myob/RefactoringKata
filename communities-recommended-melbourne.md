@@ -30,3 +30,4 @@
 * [DevOps Melbourne](https://www.meetup.com/en-AU/devops-melbourne/)
 * [Leadership of Awesome](https://www.meetup.com/en-AU/Leadership-of-Awesome/)
 * [Startup Victoria's Meetup](https://www.meetup.com/en-AU/StartupVictoria/)
+* [Junior Developers Melbourne](https://www.meetup.com/en-AU/Junior-Developers-Melbourne)
