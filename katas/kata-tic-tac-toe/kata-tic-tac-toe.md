@@ -2,8 +2,6 @@
 
 Tic Tac Toe is one of the few games that transcends cultures and continents, it is easily understood and cost nothing to play.
 
-In this code kata, we look to implement several levels of difficulty on Tic Tac Toe.
-
 ## The rule of the game
 
 ### Game Play
