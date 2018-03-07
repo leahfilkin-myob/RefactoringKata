@@ -9,5 +9,5 @@ Before someone can become a [Polyglot](https://github.com/MYOB-Technology/Genera
 * Types
 * Interfaces  
 * Classes for encapsulation  
-* Dependency Injection through constructor injection  
+* Dependency injection
 
