@@ -1,4 +1,4 @@
-# Strongly Typed Object Oriented Lanauge
+# Strongly Typed Object Oriented Language
 
 Two languages to consider: Java or C#
 
