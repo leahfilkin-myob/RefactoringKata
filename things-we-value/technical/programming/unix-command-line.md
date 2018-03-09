@@ -1,15 +1,12 @@
-# The Basics of Linux
-
-Linux is one of the most well-used operating systems for production applications across the globe. Originally released for free in 1991, now it has several million contributors all putting their collective will into making one of the most secure, and reliable platforms in use today.
+# Unix Command Line
 
 ## The Basics
 
-[Linux](http://www.ee.surrey.ac.uk/Teaching/Unix/unixintro.html) is composed of several object primitives which make up an operating system. Understand what a file, directory, and process is in the world of Linux.
-
-[The Command Line Interface](http://www.ee.surrey.ac.uk/Teaching/Unix/unix1.html) is the primary method of interacting with Linux - even as graphical interfaces exist. Through your career, you will need to navigate modify, and create directory.
+[The Command Line Interface](http://www.ee.surrey.ac.uk/Teaching/Unix/unix1.html) is the primary method of interacting with a Unix OS - even as graphical interfaces exist. Through your career, you will need to navigate modify, and create directory.
 
 [File manipulation](http://www.ee.surrey.ac.uk/Teaching/Unix/unix2.html) is also a critical bit. Know how to copy, move, or remove files.
 
+[Unix](http://www.ee.surrey.ac.uk/Teaching/Unix/unixintro.html) is composed of several object primitives which make up an operating system. Understand what a file, directory, and process is in the world of Unix.
 
 ## Checkpoint: Exercise 1
 
@@ -17,7 +14,7 @@ Try to make a directory using your Mac terminal, and create a structure for wher
 
 ## Advanced
 
-[Redirection and pipes](http://www.ee.surrey.ac.uk/Teaching/Unix/unix3.html) are Linux's way of 'forwarding' traffic that usually goes to the standard output.  One of the great things about using pipes to redirect one program's output _(stdout)_ into a second program's input _(stdin)_ is that it allows both programs to run simultaneously and permits data to be transferred between them continuously rather than having to pass it through temporary text files or through the display screen and having to wait for one program to be completed before the next program begins.
+[Redirection and pipes](http://www.ee.surrey.ac.uk/Teaching/Unix/unix3.html) are Unix's way of 'forwarding' traffic that usually goes to the standard output.  One of the great things about using pipes to redirect one program's output _(stdout)_ into a second program's input _(stdin)_ is that it allows both programs to run simultaneously and permits data to be transferred between them continuously rather than having to pass it through temporary text files or through the display screen and having to wait for one program to be completed before the next program begins.
 
 [Understanding Linux users and groups](https://linuxacademy.com/howtoguides/posts/show/topic/12659-understanding-linux-users-and-groups) is an important part of understanding the security model in Linux and how you can secure or share resources.
 
@@ -40,5 +37,5 @@ Use SSH to connect to a remote server using an SSH key for authentication.
 ## Resources
 
 - [The Art of Unix Programming](http://www.catb.org/esr/writings/taoup/)
-- [Linux Command Line Basics](https://app.pluralsight.com/library/courses/linux-cli-fundamentals/table-of-contents) - Pluralsight course  
 - [Terminal game](http://www.mprat.org/Terminus/)
+- [Linux Command Line Basics](https://app.pluralsight.com/library/courses/linux-cli-fundamentals/table-of-contents) - Pluralsight course  
