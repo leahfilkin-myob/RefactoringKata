@@ -31,6 +31,48 @@ Your task is to impelment Conways Game of Life. You should be able to:
 * Be able to define how big the world/grid is (10x10, 50x80, etc.)
 * Be able to set the inital state of the world  
 
+------------------------------------------------------------------------------------------------------------
+
+### 3D Conways
+
+Refactor your Conways to allow work in a 3D grid  
+
+#### Constraints
+
+* At the beginning of a game you should be able to determine whether you want to work in a 3D or 2D world  
+
+------------------------------------------------------------------------------------------------------------
+
+### More User Friendly Conways
+
+Allows a more user friendly version of Conways
+
+* Allow world state to be saved and loaded from disk  
+* Allow users to customize the world state on startup  
+
+------------------------------------------------------------------------------------------------------------
+
+### Change the Interface of Conways
+
+If the initial Conways had only one user interface (i.e., command line), write a version of Conways that supports two interfaces (i.e., command line and web application).  
+
+Make sure that one interface is event-driven (i.e., web) and another is loop-driven (i.e., command line).   
+
+This becomes the perfect opportunity to teach about abstraction of a view layer and "Tell Don't Ask."  
+
+------------------------------------------------------------------------------------------------------------
+
+### More User Friendly Conways
+
+Allows a more user friendly version of Conways
+
+* Allow world state to be saved and loaded from disk  
+* Allow users to customize the world state on startup  
+
+
+
+------------------------------------------------------------------------------------------------------------
+
 ## References
 
 * [John Conway Talks about the Game of Life Problem](https://youtu.be/FdMzngWchDk)  
