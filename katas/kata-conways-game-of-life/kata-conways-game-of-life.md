@@ -62,17 +62,6 @@ This becomes the perfect opportunity to teach about abstraction of a view layer 
 
 ------------------------------------------------------------------------------------------------------------
 
-### More User Friendly Conways
-
-Allows a more user friendly version of Conways
-
-* Allow world state to be saved and loaded from disk  
-* Allow users to customize the world state on startup  
-
-
-
-------------------------------------------------------------------------------------------------------------
-
 ## References
 
 * [John Conway Talks about the Game of Life Problem](https://youtu.be/FdMzngWchDk)  
