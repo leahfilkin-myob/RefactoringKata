@@ -30,6 +30,7 @@ The TDD development cycle
 - [The three laws of TDD](https://www.youtube.com/watch?v=qkblc5WRn-U)  
 - [TDD with Uncle Bob Part 1](https://cleancoders.com/episode/clean-code-episode-6-p1/show)  
 - [TDD with Uncle Bob Part 2](https://cleancoders.com/episode/clean-code-episode-6-p2/show)  
+- [Ian Cooper - TDD, Where Did It All Go Wrong?](https://youtu.be/EZ05e7EMOLM)  
 
 ## Workshops
 
