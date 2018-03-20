@@ -16,3 +16,4 @@
 * [Functional Programming Auckland](https://www.meetup.com/Functional-Programming-Auckland)  
 * [New Zealand Python User Group - Auckland](https://www.meetup.com/NZPUG-Auckland/)
 * [Serverless Auckland](https://www.meetup.com/Serverless-Auckland/)
+* [Auckland Junior Dev MeetUp](https://www.meetup.com/JuniorDev-Auckland)
