@@ -1,11 +1,23 @@
 # Story Writing
 
-Brief description of the skill.
+User stories are the building blocks of agile software development. They provide:
+- Boundaries of requirements for a piece of work
+- Articulation of the user or benefitiary of the work
+- Articulation of the function of the work
+- Articulation of the value of the work
 
-Link to wikipedia definition.
+Stories can be written with different templates, but all should fulfill the above. 
+
+[Link to wikipedia definition](https://github.com/MYOB-Technology/General_Developer/edit/master/things-we-value/cross-functional/business-analysis/story-writing.md)
 
 ### History and background
-A brief history of why this skill came about and how it relates to others.  Who are the important people who created/modified this skill.
+In 1998 Alistair Cockburn visited the Chrysler C3 project in Detroit and coined the phrase "A user story is a promise for a conversation."
+With Extreme Programming (XP), user stories became a part of the planning game.
+
+In 2001, Ron Jeffries proposed a "Three Cs" formula for user story creation:
+- The Card (or often a post-it note) is a tangible durable physical token to hold the concepts;
+- The Conversation is between the stakeholders (customers, users, developers, testers, etc.). It is verbal and often - - supplemented by documentation;
+- The Confirmation ensures that the objectives of the conversation have been reached.
 
 ### Principles or rules
 The guiding principles or rules around this skill - e.g always build a failing test first for Test Driven Development, the agile manifesto for Agile etc.
@@ -14,40 +26,29 @@ The guiding principles or rules around this skill - e.g always build a failing t
 Typical usage and definition/description of the skill as used within MYOB.  This will generally be a larger section. By the end of reading this section people will have a basic understanding of the subskill.
 
 ### How to best learn this skill
-(may include examples or suggestions for exercises to do)
+The best way to learn how to write good stories is by practice. Through working within your agile team, your developers, UXers, QAs and others can work with you to craft good stories and help you learn what makes a good story for teams. 
 
 ### Variations of this skill 
-Other well known variations in use 
+Stories are often tied to Acceptance Criteria - and usually a story will have a set of ACs that accompany it.
 
 ### Libraries and frameworks related to this skill
-May include links to IDE for programming languages etc.
 
-## Resources List for SubSkill
+## Resources 
 ### Blog posts to read
 - [Text] (https: )
-Link to blogs
-Videos to watch
-Link to videos
-Workshops
-Katas or practical training exercises
-Link to a katas
-Internal references
-e.g Slack channel
-Sensible default link
-COP which may be of interest to this topic
-Solution options or solution proposals related to this
-Learning labs related to this topic
-Books to read
-Include the cannonical reference on this subject (e.g K&R for C programming)
-Conferences
-Conferences that are related to this topic .e.g YOW! data, or Agile Australia
-Online training courses
-Links to free online training subjects
-Links to paid online training courses - udemy, pluralsight,egghead
-Certifications in this area
-E.g AWS certified engineer or Microsoft professional developer
-E.g Grad dip in security
-Meetups or special interest groups outside MYOB
-e.g
-More advanced stuff
-Re
+### Videos to watch
+### Workshops
+- [How to write user stories - Warren Reyes 2017](https://myobo365.sharepoint.com/:p:/s/cop-ba/ERCmbHOVXaZMtosWXt0uBqEBKWomvcVPg2dKv4GNQUrOHA?e=IMl1qR)
+### Katas or practical training exercises
+### Internal references
+- [INVEST Principal Dojo - Stef Kechayas 2018](https://myobo365.sharepoint.com/:p:/s/cop-ba/EQEKeR470-9ErVxscFrVCCEB_0bNCMCVGcEzQ2oHQYtO4g?e=sYZ4v3)
+### Sensible default link
+### COP which may be of interest to this topic
+### Solution options or solution proposals related to this
+### Learning labs related to this topic
+### Books to read
+### Conferences
+### Online training courses
+### Certifications in this area
+### Meetups or special interest groups outside MYOB
+### More advanced stuff
