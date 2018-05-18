@@ -1,29 +1,30 @@
-Story Writing
-SubSkill Description
+# Story Writing
+
 Brief description of the skill.
 
 Link to wikipedia definition.
 
-History and background
+### History and background
 A brief history of why this skill came about and how it relates to others.  Who are the important people who created/modified this skill.
 
-Principles or rules
+### Principles or rules
 The guiding principles or rules around this skill - e.g always build a failing test first for Test Driven Development, the agile manifesto for Agile etc.
 
-Typical usage and definition
+### Typical usage and definition
 Typical usage and definition/description of the skill as used within MYOB.  This will generally be a larger section. By the end of reading this section people will have a basic understanding of the subskill.
 
-How to best learn this skill
+### How to best learn this skill
 (may include examples or suggestions for exercises to do)
 
-Variations of this skill 
+### Variations of this skill 
 Other well known variations in use 
 
-Libraries and frameworks related to this skill
+### Libraries and frameworks related to this skill
 May include links to IDE for programming languages etc.
 
-Resources List for SubSkill
-Blog posts to read
+## Resources List for SubSkill
+### Blog posts to read
+- [Text] (https: )
 Link to blogs
 Videos to watch
 Link to videos
