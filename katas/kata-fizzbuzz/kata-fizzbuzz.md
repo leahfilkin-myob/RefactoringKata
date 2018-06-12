@@ -9,6 +9,6 @@ Write a program that prints the numbers from 1 to 100. But for multiples of thre
 Fizz  
 4  
 Buzz  
-6  
+Fizz  
 7  
 etc.
