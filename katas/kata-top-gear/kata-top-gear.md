@@ -19,3 +19,8 @@ Future versions of the car could then use actual measurements of fuel consumptio
 to configure those ranges on the fly!
 Your assignment is to make the gearbox accept a range of rpms for each gear (and
 of course use that range to shift gears!)
+
+References
+__________
+[Introducing the Top Gear Kata](http://www.lagerweij.com/2016/03/23/top-gear-a-new-refactoring-kata)
+
