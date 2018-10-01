@@ -53,8 +53,8 @@ Please input your name: John
 Please input your surname: Doe  
 Please enter your annual salary: 60050
 Please enter your super rate: 9
-Please enter your payment start date:1 March
-Please enter your payment end date:31 March
+Please enter your payment start date: 1 March
+Please enter your payment end date: 31 March
 
 Your payslip has been generated:
 
