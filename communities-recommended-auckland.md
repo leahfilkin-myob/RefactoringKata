@@ -17,3 +17,4 @@
 * [New Zealand Python User Group - Auckland](https://www.meetup.com/NZPUG-Auckland/)
 * [Serverless Auckland](https://www.meetup.com/Serverless-Auckland/)
 * [Auckland Junior Dev MeetUp](https://www.meetup.com/JuniorDev-Auckland)
+* [The Leadership Grind](https://www.meetup.com/The-Leadership-Grind/)
