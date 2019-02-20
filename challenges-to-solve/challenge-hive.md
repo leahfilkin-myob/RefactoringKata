@@ -1,6 +1,6 @@
 # Hive Challenge
 
-We need your help! We have formed a startup to produce an online version of the [table top game hive](https://en.wikipedia.org/wiki/Hive_(game).
+We need your help! We have formed a startup to produce an online version of the [table top game hive](https://en.wikipedia.org/wiki/Hive_(game)).
 
 We've already invested heavily in the startup and had the [front end developed](https://github.com/MYOB-Technology/fma-hex-renderer#readme) by Bob, our rockstar developer. 
 
