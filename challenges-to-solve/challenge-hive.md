@@ -6,8 +6,6 @@ Unfortunately Bob was so good that recruiters heard about him and now's he's joi
 
 The backend needs to be done in Java or C#. While you may have some frontend skills we've decided you cannot change the contract set in the front end. Because we are a startup and looking for future funding we want you to implement the rules of the game in iterations. We can't afford a Business Analyst so you are going to have to figure out what the appropriate slices are to deliver. 
 
-We want quality code that demonstrates all the practices you've learn't (things like Four Rules of Simple Design, TDD, and so on).
-
-If you haven't played the game before we recommend you first get used to playing it manually. We have a physical copy of the game in each MYOB office.
+We want quality code that demonstrates all the practices you've learn't (things like Four Rules of Simple Design, TDD, and so on). If you haven't played the game before we recommend you first get used to playing it manually. We have a physical copy of the game in each MYOB office.
 
 Good luck!
