@@ -49,3 +49,10 @@ Git and GitHub are great tools for collaborating on a project. One way to collab
 [Git Real Course]( https://www.codeschool.com/courses/git-real)  
 [Mastering GitHub Course](https://www.codeschool.com/courses/mastering-github)  
 [Git Cheatsheet](https://ndpsoftware.com/git-cheatsheet.html)
+
+### More resources for Git
+- https://www.git-tower.com/learn
+- https://www.katacoda.com/courses/git
+
+### More resources for Git branching
+- https://learngitbranching.js.org
