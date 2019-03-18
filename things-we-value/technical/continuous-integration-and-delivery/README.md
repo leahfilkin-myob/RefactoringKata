@@ -1,6 +1,14 @@
-# Continous Deployment  
+# Continous Integration and Delivery
 
-### Definition
+## Continous Integration
+
+todo: put content
+
+## Continous Delivery
+
+todo: put content
+
+## Continous Deployment
 
 Continuous deployment is a software development practice in which every code change goes through the entire pipeline and is put into production, automatically, resulting in many production deployments every day.
 
