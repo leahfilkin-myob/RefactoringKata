@@ -4,7 +4,7 @@ When starting out with programming it can seem like a vast field with many many 
 
 Below we have identified some basic concepts to focus on ordered by priority to learn
 
-C# & Java
+## C# & Java
 
 * Variables & Types
 * If / Else & Case Statements
@@ -20,4 +20,3 @@ C# & Java
 	* Inheritance and why it should be avoided
 	* Using classes to represent responsibilities & behaviours
 * Interfaces
-* Dependency Injection & Composition
