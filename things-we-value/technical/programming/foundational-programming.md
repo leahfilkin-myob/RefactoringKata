@@ -15,8 +15,10 @@ Below we have identified some basic concepts to focus on ordered by priority to 
 * Enums
 * Classes
 	* Public/Private Methods
+	* Static methods vs instance methods
 	* Constructor & passing values through a constructor
 	* Private Variables
-	* Inheritance and why it should be avoided
 	* Using classes to represent responsibilities & behaviours
+
+* Inheritance with classes (and why it should usually be avoided)
 * Interfaces
