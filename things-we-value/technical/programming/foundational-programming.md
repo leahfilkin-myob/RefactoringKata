@@ -1,8 +1,8 @@
 Foundational Programming Concepts
 
-When starting out with programming it can seem like a vast field with many many different things to learn.
+When starting out with programming it can seem like a vast field with many many different things to learn. It helps to first learn the foundational concepts and then build up from them. A strongly typed object oriented language is a great first paradigm to deepen your understanding of programming language concepts. Two languages to consider: Java or C# 
 
-Below we have identified some basic concepts to focus on ordered by priority to learn
+Below we have identified some basic concepts to focus on ordered by priority to learn:
 
 ## C# & Java
 
