@@ -1,4 +1,4 @@
-# Basic Payslip Challenge
+# Basic Payslip Kata
 
 At MYOB we rock at payroll, the most important part of payroll is getting your payslip!
 
