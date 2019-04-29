@@ -1,4 +1,4 @@
-# Magic Year Calculator Challenge
+# Magic Year Calculator 
 
 ## Overview
 
