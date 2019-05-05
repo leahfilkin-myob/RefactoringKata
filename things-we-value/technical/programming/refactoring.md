@@ -39,5 +39,9 @@ When done properly refactoring does help fight the entropy which tends to build 
 [Gilded Rose Kata](https://github.com/emilybache/GildedRose-Refactoring-Kata)
 [Tennis Game Kata](https://github.com/emilybache/Tennis-Refactoring-Kata)
 
+## Online Courses
+
+[Refactoring Guru](https://refactoring.guru/)  
+
 ## Books to read
 [Refactoring : Improving the Design of Existing Code](https://www.bookdepository.com/Refactoring-Martin-Fowler/9780201485677?redirected=true&utm_medium=Google&utm_campaign=Base1&utm_source=NZ&utm_content=Refactoring&selectCurrency=NZD&w=AF7CAU99VV6VNXA80CXSAD9F&pdg=kwd-309526196534:cmp-710646238:adg-42660986568:crv-163904097987:pid-9780201485677:dev-c&gclid=EAIaIQobChMIr-6XnIzd1wIV2yMrCh2OBgfLEAYYASABEgK3s_D_BwE)
