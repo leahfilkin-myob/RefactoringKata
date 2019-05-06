@@ -26,6 +26,7 @@ The TDD development cycle
 - [Three rules of TDD](http://butunclebob.com/ArticleS.UncleBob.TheThreeRulesOfTdd)
 - [Spike to learn, TDD to build](https://joneaves.wordpress.com/2004/02/18/spike_to_learn_tdd_to_build/)
 - [Test Driven Development Wiki](https://github.com/testdouble/contributing-tests/wiki/Test-Driven-Development)
+- [Classic TDD or "London School"](http://codemanship.co.uk/parlezuml/blog/?postid=987)
 
 ### Videos to watch
 - [The three laws of TDD](https://www.youtube.com/watch?v=qkblc5WRn-U)  
@@ -37,8 +38,12 @@ The TDD development cycle
 
 - [Intro to Test-Driven Development](intro-to-tdd.pptx)
 
-## Katas
+## Practice Katas
+
+The string calculator kata is a beginner kata to start learning how to write unit tests first. Admittedly it is not teaching you TDD but rather introducing you to a component of TDD.
+
 - [String Calculator Kata](https://github.com/MYOB-Technology/General_Developer/blob/master/katas/kata-string-calculator/kata-string-calculator.md)  
+
 
 ## Internal references
 - [Slack channel - #sig-tdd](https://myob.slack.com/messages/C89U71VKQ)

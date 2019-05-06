@@ -10,7 +10,7 @@ Object composition can (and should!) be used to avoid the problem alluded to in 
 1. Include instances of these in the any new classes we wish to share functionality with
 1. Expose the desired functionality by using these instances
 
-## Katas
+## Practice Katas
 
 - [Composition kata](https://github.com/OdeToCode/Katas/tree/master/Composition/CS/Composition)
 
