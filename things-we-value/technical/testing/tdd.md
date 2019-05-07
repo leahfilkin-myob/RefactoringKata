@@ -40,10 +40,9 @@ The TDD development cycle
 
 ## Practice Katas
 
-The string calculator kata is a beginner kata to start learning how to write unit tests first. Admittedly it is not teaching you TDD but rather introducing you to a component of TDD.
-
 - [String Calculator Kata](https://github.com/MYOB-Technology/General_Developer/blob/master/katas/kata-string-calculator/kata-string-calculator.md)  
 
+The string calculator kata is a beginner kata to start learning how to write unit tests first. Admittedly it is not teaching you TDD but rather introducing you to a component of TDD, writing the test first.
 
 ## Internal references
 - [Slack channel - #sig-tdd](https://myob.slack.com/messages/C89U71VKQ)
