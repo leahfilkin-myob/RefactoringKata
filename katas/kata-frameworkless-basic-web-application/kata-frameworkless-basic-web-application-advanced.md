@@ -1,6 +1,6 @@
 # Frameworkless Basic Web Application Kata Advanced
 
-Once you have completed the [Basic Frameworkless Web Application](https://github.com/MYOB-Technology/General_Developer/blob/master/katas/kata-frameworkless-basic-web-application/kata-frameworkless-basic-web-application.md) do the following:
+This assumes you have already completed the [Basic Frameworkless Web Application](https://github.com/MYOB-Technology/General_Developer/blob/master/katas/kata-frameworkless-basic-web-application/kata-frameworkless-basic-web-application.md).
 
 You've just completed the basic frameworkless web application. Suddenly mayhem ensues as the industry begins to enter the 2000 dot com boom. Eager investors find out about your system and would like to give you millions of dollars but before they will do this they want you to add some additional features to the system.
 
