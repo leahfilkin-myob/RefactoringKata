@@ -6,7 +6,9 @@ When calling the web application from a browser it should return a greeting with
 
 _(Yes, we know we said you were in the 1990s... but we want you to use your current servers date/time ;-))_
 
-To make your life easier we have got starting points for Java and C#
+Oh, and of course you are one of those new age eXtreme programmers so you need to have appropriate tests! 
+
+To make your life easier we have got starting points for Java and C#  
 
 ## To summarise 
 
