@@ -1,12 +1,8 @@
 # Http Basic Web Application Kata
 
-It's the late 1990s and the internet has just begun to flourish. You have a brilliant idea to build a Hello World web application however there are no MVC frameworks for you to use.
+It's the late 1990s and the internet has just begun to flourish. You have a brilliant idea to build a Hello World web application however there are no MVC frameworks for you to use. Your mission is to implement a basic Hello World web application without using any frameworks. 
 
-Your mission is to implement a basic Hello World web application without using any frameworks. 
-
-When calling the web application from a browser it should return a greeting with your name and the current date/time of the server. 
-
-For instance, if your name was Bob when hitting the web server (http://localhost:8080) the browser would display "Hello Bob - the time on the server is 10:48pm on 14 March 2018" 
+When calling the web application from a browser it should return a greeting with your name and the current date/time of the server. For instance, if your name was Bob when hitting the web server (http://localhost:8080) the browser would display "Hello Bob - the time on the server is 10:48pm on 14 March 2018" 
 
 _(Yes, we know we said you were in the 1990s... but we want you to use your current servers date/time ;-))_
 
