@@ -2,7 +2,7 @@
 
 It's the late 1990s and the internet has just begun to flourish. You have a brilliant idea to build a Hello World web application however there are no MVC frameworks for you to use.
 
-You need to implement a basic Hello World web application without using any frameworks. 
+Your mission is to implement a basic Hello World web application without using any frameworks. 
 
 When calling the web application from a browser it should return a greeting with your name and the current date/time of the server. 
 
