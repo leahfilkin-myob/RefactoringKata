@@ -7,7 +7,7 @@ You've just completed the basic frameworkless web application. Suddenly mayhem e
 Their requirements are as follows:
 
 * By default your web application should just great you with your name and the date however (assume for these examples your name is Bob)  
-* You should be able to add Mary to your hello world, after calling the appropriate http requests it should display "Hello Bob and Mary - the time on the server is 10:59pm on 14 March 2018" _(Yes, we know that's no the late 1990's!)   
+* You should be able to add additional people to the list. For example, say you want to add Mary to your hello world, after calling the appropriate http requests it should display "Hello Bob and Mary - the time on the server is 10:59pm on 14 March 2018" _(Yes, we know that's no the late 1990's!)   
 * You should then be able to add Sue to your hello world, "Hello Bob, Mary and Sue - the time on the server is 10:59pm on 14 March 2018"    
 * You can also remove people from the greeting, you could remove Mary while keeping Sue , "Hello Bob & Sue - the time on the server is 11:01pm on 14 March 2018"  
 * You should be able to have a custom url to get just a list of people's names without the greetings  
