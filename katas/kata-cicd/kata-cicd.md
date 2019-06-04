@@ -10,14 +10,19 @@ This kata assumes you already have a web application code base with automated te
 
 ## Containerization
 
-* You need to set up a container that your system can be built and run in
+You need to set up a container that your system can be built and run in. It should...
+
+* Have a reliably consistent environment
+* Be defined in code
+* Be testable in multiple environments (locally and in prod)
 
 ## Continuous Integration 
 
-* Your pipeline needs to be automated (no manual steps)
-* No passwords or sensitive data should be stored in version control.  
-* Automation and pipeline scripts should be in version control and treated as first class citizens
-* On check to your version control repository, your test suit should run
+Now that you have a reliable and consistent environment it's time to create a continuous integration pipeline. Your pipeline needs to...
+
+* Be automated (no manual steps)
+* Be in version control, automation and pipeline scripts should be treated as first class code citizens
+* Triggered on check in to your version control repository, your test suit should run when a commit is made to the repository  
 
 ## Continuous Deployment
 
