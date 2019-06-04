@@ -1,6 +1,8 @@
 # CI/CD with Containers Kata
 
-The focus of the CI/CD with Containers kata is to put into practice the principles of safety, consistency and reliability in our deployment (that's production!) environments. To achieve consistency and reliability, we will lean on container technology (specifically Docker). Your job is to make a reliable pipeline that can deploy your system into production. You are going to use containers as a tool to do this. 
+The focus of the CI/CD with Containers kata is to put into practice the principles of safety, consistency and reliability in our deployment (that's production!) environments. 
+
+To achieve consistency and reliability, we will lean on container technology (specifically Docker). Your job is to make a reliable pipeline that can deploy your system into production. You are going to use containers as a tool to do this. 
 
 This kata is broken up into three parts. Part 1 focusses around getting a container to run on your local machine. Part 2 focusses around continuous integration, Part 3 focuses on continuous deployment. 
 
