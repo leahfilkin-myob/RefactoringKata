@@ -1,8 +1,8 @@
 # CI/CD Kata
 
-The focus of the CI/CD kata is to bring safety when bringing things into production. You job is to make a reliable pipeline that can deploy your system into production. This kata is broken up into two steps, part 1 focusses around continuous integration, part 2 focuses on continuous deployment. You need to do this in such a way that you are confident that it works.
+The focus of the CI/CD kata is to bring safety when bringing things into production. You job is to make a reliable pipeline that can deploy your system into production. This kata is broken up into two steps, part 1 focusses around continuous integration, part 2 focuses on continuous deployment. 
 
-This kata assumes you have a web application code base with a set of tests that you can you to do CI/CD. We would recommend to first complete something like [Frameworkless Basic Web Application kata](https://github.com/MYOB-Technology/General_Developer/blob/master/katas/kata-frameworkless-basic-web-application/kata-frameworkless-basic-web-application.md) with the [enhancements](https://github.com/MYOB-Technology/General_Developer/blob/master/katas/kata-frameworkless-basic-web-application/kata-frameworkless-basic-web-application-enhancements.md) done.
+This kata assumes you have a web application code base with a set of tests that you can already use to do CI/CD. We would recommend you first complete something like [Frameworkless Basic Web Application kata](https://github.com/MYOB-Technology/General_Developer/blob/master/katas/kata-frameworkless-basic-web-application/kata-frameworkless-basic-web-application.md) with the [enhancements](https://github.com/MYOB-Technology/General_Developer/blob/master/katas/kata-frameworkless-basic-web-application/kata-frameworkless-basic-web-application-enhancements.md).
 
 ## Continuous Integration 
 
