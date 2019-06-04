@@ -1,6 +1,8 @@
 # CI/CD with Containers Kata
 
-The focus of the CI/CD with Containers kata is to bring safety when bringing things into production. You job is to make a reliable pipeline that can deploy your system into production. You are going to use containers as a tool to do this. This kata is broken up into three parts, part 1 focusses around getting a container to run on your local machine. Part 2 focusses around continuous integration, Part 3 focuses on continuous deployment. 
+The focus of the CI/CD with Containers kata is to bring safety when bringing things into production. You job is to make a reliable pipeline that can deploy your system into production. You are going to use containers as a tool to do this. 
+
+This kata is broken up into three parts. Part 1 focusses around getting a container to run on your local machine. Part 2 focusses around continuous integration, Part 3 focuses on continuous deployment. 
 
 This kata assumes you already have a web application code base with automated tests that you use to do CI/CD (we recommend you first complete something like [Frameworkless Basic Web Application kata](https://github.com/MYOB-Technology/General_Developer/blob/master/katas/kata-frameworkless-basic-web-application/kata-frameworkless-basic-web-application.md) with the [enhancements](https://github.com/MYOB-Technology/General_Developer/blob/master/katas/kata-frameworkless-basic-web-application/kata-frameworkless-basic-web-application-enhancements.md)).
 
