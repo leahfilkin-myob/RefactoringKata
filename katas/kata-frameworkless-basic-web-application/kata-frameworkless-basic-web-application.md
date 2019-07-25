@@ -54,20 +54,24 @@ __It is worth mentioniong that using the com.sun. packages is generally a no-no,
 
 ## CSharp Starting Point
 
-If you are working in C#, create with ASP.Net Core avoiding any middleware. The basic asp.net core without any built in middleware would look something like this...
+If you are working in C#, a trivial web server that doesn't rely on
+ASP.NET Core follows. Note that it handles a single request at a time,
+synchronously. Converting it to be asynchronous, so as to be able to handle
+more than one request simultaneously, is a useful future exercise.
 
 ~~~
-WebHost.CreateDefaultBuilder(args)
-                .Configure(app =>
-                {
-                    app.Run(async context =>
-                    {
-                        context.Response.StatusCode = 200;
-                        await context.Response.WriteAsync($"Hello");
-                    });
-                })
-                .Build()
-                .Run();
+var server = new HttpListener();
+server.Prefixes.Add("http://localhost:8080/");
+server.Start();
+while (true)
+{
+    var context = server.GetContext();  // Gets the request
+    Console.WriteLine($"{context.Request.HttpMethod} {context.Request.Url}");
+    var buffer = System.Text.Encoding.UTF8.GetBytes("Hello");
+    context.Response.ContentLength64 = buffer.Length;
+    context.Response.OutputStream.Write(buffer, 0, buffer.Length);  // forces send of response
+}
+server.Stop();  // never reached...
 ~~~
 
 ----------------------------------------------------------------------
