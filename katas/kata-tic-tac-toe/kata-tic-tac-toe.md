@@ -7,8 +7,8 @@ Tic Tac Toe is one of the few games that transcends cultures and continents, it 
 ### Game Play
 
 * Two players are required for a game.
-* Each player will assume wither an “X” or “O”.
-* Players take turn to play till a player wins, or the end of the game (whichever happens first).
+* Each player will assume either an “X” or “O”.
+* Players take turn to play until a player wins, or the end of the game (whichever happens first).
 
 ### Condition for a win
 
