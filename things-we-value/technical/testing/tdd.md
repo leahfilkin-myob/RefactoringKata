@@ -20,7 +20,7 @@ The TDD development cycle
 
 ### Blog posts to read
 - [Test Driven Development - Overview](https://www.agilealliance.org/glossary/tdd/)
-- [Test-First Programming](https://www.versionone.com/agile-101/agile-software-programming-best-practices/test-first-programming/)
+- [Test-First Programming](https://resources.collab.net/agile-101/test-first-programming)
 - [Benefits of test-driven development](https://www.quora.com/What-are-the-benefits-of-test-driven-development)
 - [Test Driven Development (TDD): Example Walkthrough](https://technologyconversations.com/2013/12/20/test-driven-development-tdd-example-walkthrough/)
 - [Three rules of TDD](http://butunclebob.com/ArticleS.UncleBob.TheThreeRulesOfTdd)
