@@ -18,7 +18,7 @@ Your mission is to build a order management system for the factory. The system n
 - Pricing orders
 - Generating a cutting list for an order  
 - Generating a painting list for an order
-- Viewing all customers
+- Viewing all orders in a date range
 
 ## Pricing of blocks
 
