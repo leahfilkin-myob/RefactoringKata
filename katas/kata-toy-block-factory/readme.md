@@ -40,7 +40,7 @@ An order has a
 - Order Number
 - List of the blocks in an order with their respective colors
 
-## Cutting & Paiting Department Needs
+## Cutting & Painting Department Needs
 
 The factory cutting department and a painting department
 
@@ -69,7 +69,7 @@ Red color surcharge	1 @ $1 ppi = $1
 
 Total : $19
 
-# Cuttling List Report
+# Cutting List Report
 
 Name: Mark Pearl
 Address: 1 Bob Avenue, Auckland
