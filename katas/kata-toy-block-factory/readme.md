@@ -4,15 +4,15 @@ There is a factory that makes toy blocks. The blocks come in three different sha
 
 The factory produces things per order. An order consists of a combination of shapes and colors. Below is an example of what an order would look like.
 
-|----------|-----|------|--------|
-|          | Red | Blue | Yellow |
-|----------|-----|------|--------|
-| Square   | 1   | -    | 1      |
-|----------|-----|------|--------|
-| Triangle | -   | 2    | -      |
-|----------|-----|------|--------|
-| Circle   | -   | 1    | 2      |
-|----------|-----|------|--------|
+|----------|-----|------|--------|  
+|          | Red | Blue | Yellow |  
+|----------|-----|------|--------|  
+| Square   | 1   | -    | 1      |  
+|----------|-----|------|--------|  
+| Triangle | -   | 2    | -      |  
+|----------|-----|------|--------|  
+| Circle   | -   | 1    | 2      |  
+|----------|-----|------|--------|  
 
 The factory does not keep any stock of blocks, instead blocks are produced per order.  
 
