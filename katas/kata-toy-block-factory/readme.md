@@ -60,7 +60,6 @@ Order #: 0001
 | Square   | 1   | -    | 1      |
 | Triangle | -   | 2    | -      |
 | Circle   | -   | 1    | 2      |
-|----------|-----|------|--------|
 
 Squares 		2 @ $1 ppi = $2  
 Triangles		2 @ $2 ppi = $4  
@@ -81,7 +80,6 @@ Order #: 0001
 | Square   | 2   |
 | Triangle | 2   |
 | Circle   | 3   |
-|----------|-----|
 
 # Painting Report
 
@@ -95,6 +93,4 @@ Order #: 0001
 | Square   | 1   | -    | 1      |
 | Triangle | -   | 2    | -      |
 | Circle   | -   | 1    | 2      |
-|----------|-----|------|--------|
 
-<Paste>
