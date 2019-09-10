@@ -6,6 +6,16 @@ In a normal supermarket, things are identified using Stock Keeping Units, or SKU
 
 Our goods are priced individually.
 
+~~~
+Item   Unit      
+         Price  
+  -------------
+    A     50  
+    B     30 
+    C     20
+    D     15
+~~~
+
 Our checkout accepts items in any order, so that if we scan a B, an A, and another B it will be able to give you the total price for one A and two B's
 
 An example of our some of the tests (in ruby) would be:
