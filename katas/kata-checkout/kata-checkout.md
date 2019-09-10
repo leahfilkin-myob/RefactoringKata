@@ -7,8 +7,7 @@ In a normal supermarket, things are identified using Stock Keeping Units, or SKU
 Our goods are priced individually.
 
 ~~~
-Item   Unit      
-         Price  
+Item   Unit Price  
   -------------
     A     50  
     B     30 
