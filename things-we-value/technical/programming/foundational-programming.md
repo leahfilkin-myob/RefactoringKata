@@ -22,3 +22,4 @@ Below we have identified some basic concepts to focus on ordered by priority to 
 * Inheritance with classes (and why it should usually be avoided)
 * Composition with classes (why this is usually better than inheritance)  
 * Interfaces
+* Exceptions
