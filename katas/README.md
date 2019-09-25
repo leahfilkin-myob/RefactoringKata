@@ -16,6 +16,7 @@
 ## Language Design
 * [String Calculator](kata-string-calculator/kata-string-calculator.md) (Test Driven Development) 
 * [Yatzy](kata-yatzy/kata-yatzy.md) (Test Driven Development)
+* [Coffee Machine](kata-coffee-machine/kata-coffee-machine.md)
 * [Monty Hall](kata-monty-hall/kata-monty-hall.md) (Test Doubles) 
 * Composition \[[C#](kata-composition/CSharp/kata-composition.md), [Java](kata-composition/Java/kata-composition.md)\] (Composition)
 * [Refactoring](kata-refactoring/kata-refactoring.md) (Refactoring)
