@@ -7,13 +7,16 @@ You do not have to implement the coffee machine customer interface. For instance
 You do not have to implement the drink maker. It is only a imaginary engine that will receive messages according to the protocol. Your job is to build those messages.
 
 ## Iterations
-This project starts simple and will grow in added features through the iterations.
 
-First iteration: Making Drinks 
-Second iteration: Going into business 
-Third iteration: Extra hot 
-Fourth iteration: Making money 
-Fifth iteration: Running out 
+This project starts simple and will grow in added features through the iterations. Do not read the next iteration until you have completed the current iteration (reading ahead is a no no :-)
+
+1) First iteration: Making Drinks   
+2) Second iteration: Going into business  
+3) Third iteration: Extra hot  
+4) Fourth iteration: Making money  
+5) Fifth iteration: Running out 
+
+
 
 ### First iteration - Making drinks
 
