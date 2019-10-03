@@ -15,6 +15,6 @@ Their requirements are as follows:
 * You can never remove yourself from the world - in this world Bob will always be there, in your world you should always be there!   
 * You can also assume that everyone in your hello world has a unique name, there is only ever one Bob, one Dave, one Mary, etc.  
 
-You don't need to worry about UI forms for adding/updating people, just interact using curl or postman or your http tool of choice to interact with the Hello World.  
+You can have a UI to show the state of the resource, but you don’t need to worry about UI forms for adding/updating/removing people, just interact using curl or postman or your http tool of choice to send http requests to modify the state of the resource.
 
 Oh, and of course you are still a big believer of autometed tests (this is sounding less and less like the 90's) so you need to have appropriate tests for all important logic! 
