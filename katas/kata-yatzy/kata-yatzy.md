@@ -65,9 +65,9 @@ Full house: If the dice are two of a kind and three of a kind, the player scores
 * 2,2,3,3,4 scores 0
 * 4,4,4,4,4 scores 0
 
-## You can chose to pick one of these tasks
-* Score a given roll in a given category. You do not have to program the random dice rolling. The computer doesn't have to choose the highest scoring category for a given roll.
-  * Simplification: If you’re short of time for this kata, one simplification is to have it always return the sum of the dice, or zero. So the implementation just has to work out if the dice match a category or not.
+## Chose a task
+* Score a given roll in a given category. You do not have to program the full game. No random dice rolling. The computer doesn't have to choose the highest scoring category for a given roll.
+  * If you’re short of time, one simplification is to have it always return the sum of the dice, or zero. So the implementation just has to work out if the dice match a category or not.
 * Create a working game for a single player.
 * Create a working game for human vs human player.
 * Create a working game for computer vs human player.
@@ -80,5 +80,4 @@ If you’d like to extend the exercise, try adding a requirement to take a given
 How much duplication is there in your solution? In your test code?
 
 * Did you write a list of test cases before you started? How did you decide what order to implement them in?  
-* If you did this as a refactoring kata, discuss the code smells you identified. Do you have them in your pro-
-duction code?  
+* If you did this as a refactoring kata, discuss the code smells you identified. Do you have them in your production code?  
