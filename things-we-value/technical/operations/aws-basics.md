@@ -4,6 +4,12 @@ AWS is one of the most popular cloud providers that currently exist on the web. 
 
 The world of AWS is a big one, but here's a couple of important bits that you'll need to know about:
 
+## Accounts
+
+Log in to AWS with your organisational account using this link and selecting the ```Amazon Web Services``` option: https://adfs.myob.com.au/adfs/ls/IdpInitiatedSignOn.aspx  
+Select the ```lab``` account. This account is used for any spike/study/experimental work.  
+Note: The ```dev``` and ```prod``` accounts are used for services such as the Protege dashboard and FMA weekly health check.  
+
 ## The Basics
 
 [EC2 Instances](https://aws.amazon.com/getting-started/tutorials/launch-a-virtual-machine/) allow you to run a virtual 'computer' in the cloud - with the same attributes as any computer you can install operating systems on.
