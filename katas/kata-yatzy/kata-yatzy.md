@@ -15,9 +15,7 @@ For example, suppose a players rolls (3,4,5,5,2). They hold (-,-,5,5,-) and re-r
 
 The player then places the roll in a category, such as ones, twos, fives, pair, two pairs etc (see below). If the roll is compatible with the category, the player gets a score for the roll according to the rules. If the roll is not compatible with the category, the player scores zero for the roll.  
 
-For example, suppose a player scores (5,6,5,5,2) in the fives category they would score 15 (three fives). The score for that go is then added to their total and the category cannot be used again in the remaining goes for that game. A full game consists of one go for each category. Thus, for their last go in a game, a player must choose their only remaining category.  
-
-Your task is to score a given roll in a given category. You do not have to program the random dice rolling. The game is not played by letting the computer choose the highest scoring category for a given roll.  
+For example, suppose a player scores (5,6,5,5,2) in the fives category they would score 15 (three fives). The score for that go is then added to their total and the category cannot be used again in the remaining goes for that game. A full game consists of one go for each category. Thus, for their last go in a game, a player must choose their only remaining category.
 
 ### Categories & Scoring Rules  
 
@@ -67,9 +65,14 @@ Full house: If the dice are two of a kind and three of a kind, the player scores
 * 2,2,3,3,4 scores 0
 * 4,4,4,4,4 scores 0
 
-## Simplification & Extension  
+## Chose a task
+* Score a given roll in a given category. You do not have to program the full game. No random dice rolling. The computer doesn't have to choose the highest scoring category for a given roll.
+  * If you’re short of time, one simplification is to have it always return the sum of the dice, or zero. So the implementation just has to work out if the dice match a category or not.
+* Create a working game for a single player.
+* Create a working game for human vs human player.
+* Create a working game for computer vs human player.
 
-If you’re short of time for this kata, one simplification is to have it always return the sum of the dice, or zero. So the implementation just has to work out if the dice match a category or not.  
+## Extension    
 If you’d like to extend the exercise, try adding a requirement to take a given roll, and return a sorted list of all the categories that give a non-zero score for it. Then you’re half-way to an AI that can play the game for you...   
 
 ## Additional discussion points for the Retrospective
@@ -77,5 +80,4 @@ If you’d like to extend the exercise, try adding a requirement to take a given
 How much duplication is there in your solution? In your test code?
 
 * Did you write a list of test cases before you started? How did you decide what order to implement them in?  
-* If you did this as a refactoring kata, discuss the code smells you identified. Do you have them in your pro-
-duction code?  
+* If you did this as a refactoring kata, discuss the code smells you identified. Do you have them in your production code?  
