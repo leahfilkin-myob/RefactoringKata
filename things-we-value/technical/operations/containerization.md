@@ -7,5 +7,5 @@ One of the most popular containerization is [Docker](https://www.docker.com/) an
 To help you understand what containerization is and how it can help with developing and deploying applications we've found some material which is worth spending some time with.
 
 * Scott Scott Hanselman's video [Containers? So What? Docker 101 Explained](https://www.youtube.com/watch?v=0oEsMwSxBsk) is an easy to follow introduction to Docker.
-* A great workshop taking you through the basic Docker tasks with explanations along the way: [DevOps Girls Docker 101 Workshop](https://github.com/DevOps-Girls/docker-101)
+* The [DevOps Girls Docker 101 Workshop](https://github.com/DevOps-Girls/docker-101) is a great workshop taking you through the basic Docker tasks with explanations of what you are doing and why along the way.
 * The [Docker 101 Tutorial](https://www.docker.com/101-tutorial) is a hands-on tutorial taking you though almost everything you will ever do with Docker. It has some more advanced techniques.
