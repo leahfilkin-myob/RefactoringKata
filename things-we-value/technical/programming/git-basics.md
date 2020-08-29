@@ -6,9 +6,9 @@ At MYOB we predominantly use Git & GitHub for version control. Knowing how to us
 
 ### Centralized vs. Distributed Version Control
 
-Version control is a system for managing changes to the source of a project. This allows easier collaboration, tracking, and documentation on a project. 
+Version control is a system for managing changes to the source of a project. This allows easier collaboration, tracking, and documentation on a project.
 
-Version Control Systems (VCS) can take two main forms: Centralized, and Distributed. 
+Version Control Systems (VCS) can take two main forms: Centralized, and Distributed.
 
 Centralized systems maintain the history of the project in one, central, place. This is the Single Source of Truth for the project. People send their updates to the central source to make changes to the project. Examples of Centralized VCSs: Subversion, Perforce.
 
@@ -42,18 +42,30 @@ Git and GitHub are great tools for collaborating on a project. One way to collab
 
 ## Resources
 
-[GitHub Guides](https://guides.github.com/) - tutorials from GitHub on using git and GitHub  
-[Git Branching Game](http://pcottle.github.io/learnGitBranching/) - game for learning git branching and navigation  
-[Git Exercises](https://gitexercises.fracz.com/) - learn and practice git, discover features  
-[Try Git Course](https://www.codeschool.com/courses/try-git)  
-[Git Real Course]( https://www.codeschool.com/courses/git-real)  
-[Mastering GitHub Course](https://www.codeschool.com/courses/mastering-github)  
-[Git Cheatsheet](https://ndpsoftware.com/git-cheatsheet.html)
-[Learn git concepts, not commands](https://dev.to/unseenwizzard/learn-git-concepts-not-commands-4gjc)
+We have found a lot of resources which will help you get up to speed with, or improve your git knowledge.
+
+### Introduction
+
+- Scott Hanselman's [Git 101 Basics](https://www.youtube.com/watch?v=WBg9mlpzEYU) video
+- Scott Hanselman's [Git Pull Requests Explained](https://www.youtube.com/watch?v=Mfz8NQncwiQ) video
+- Scott Hanselman's [Git Rebase vs Merge Explained](https://www.youtube.com/watch?v=hae9zg0-sZY) video
+
+### Tutorials
+
+- [GitHub Guides](https://guides.github.com/) - tutorials from GitHub on using git and GitHub
+- [Git Branching Game](http://pcottle.github.io/learnGitBranching/) - game for learning git branching and navigation
+- [Git Exercises](https://gitexercises.fracz.com/) - learn and practice git, discover features
+- [Try Git Course](https://www.codeschool.com/courses/try-git)
+- [Git Real Course]( https://www.codeschool.com/courses/git-real)
+- [Mastering GitHub Course](https://www.codeschool.com/courses/mastering-github)
+- [Git Cheatsheet](https://ndpsoftware.com/git-cheatsheet.html)
+- [Learn git concepts, not commands](https://dev.to/unseenwizzard/learn-git-concepts-not-commands-4gjc)
 
 ### More resources for Git
-- https://www.git-tower.com/learn
+
+- https://www.git-tower.com/learn/
 - https://www.katacoda.com/courses/git
 
 ### More resources for Git branching
+
 - https://learngitbranching.js.org
