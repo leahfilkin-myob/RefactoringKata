@@ -42,15 +42,14 @@ Git and GitHub are great tools for collaborating on a project. One way to collab
 
 ## Resources
 
-We have found a lot of resources which will help you get up to speed with, or improve your git knowledge.
-
 ### Introduction
 
 - Scott Hanselman's [Git 101 Basics](https://www.youtube.com/watch?v=WBg9mlpzEYU) video
 - Scott Hanselman's [Git Pull Requests Explained](https://www.youtube.com/watch?v=Mfz8NQncwiQ) video
 - Scott Hanselman's [Git Rebase vs Merge Explained](https://www.youtube.com/watch?v=hae9zg0-sZY) video
+- [Learn git concepts, not commands](https://dev.to/unseenwizzard/learn-git-concepts-not-commands-4gjc)
 
-### Tutorials
+### Tutorials and exercises
 
 - [GitHub Guides](https://guides.github.com/) - tutorials from GitHub on using git and GitHub
 - [Git Branching Game](http://pcottle.github.io/learnGitBranching/) - game for learning git branching and navigation
@@ -58,11 +57,10 @@ We have found a lot of resources which will help you get up to speed with, or im
 - [Try Git Course](https://www.codeschool.com/courses/try-git)
 - [Git Real Course]( https://www.codeschool.com/courses/git-real)
 - [Mastering GitHub Course](https://www.codeschool.com/courses/mastering-github)
-- [Git Cheatsheet](https://ndpsoftware.com/git-cheatsheet.html)
-- [Learn git concepts, not commands](https://dev.to/unseenwizzard/learn-git-concepts-not-commands-4gjc)
 
 ### More resources for Git
 
+- [Git Cheatsheet](https://ndpsoftware.com/git-cheatsheet.html)
 - https://www.git-tower.com/learn/
 - https://www.katacoda.com/courses/git
 
