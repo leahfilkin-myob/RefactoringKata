@@ -60,9 +60,8 @@ Add("1,\n")
 
 ### Step 6 
 
-Support different delimiters - to change a delimiter, the beginning of the string will contain a separate line that looks like this:   
-
-**"//[delimiter]\n[numbers...]"**  
+Support different single length delimiter - to change a delimiter, the string will consist of (respectively): double slashes (//), the single length delimiter, a new line (\n), and the numbers (with the desired delimiter).  
+Below example is to use a semi colon as delimiter:
 
 ~~~
 Add("//;\n1;2") > Returns 3  
