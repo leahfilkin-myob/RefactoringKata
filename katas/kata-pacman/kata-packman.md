@@ -25,6 +25,6 @@ Representation does not have to be difficult. E.g. pacman starts in the centre o
 
 ~~~
 . . .
-.V.
+. V .
 . . .
 ~~~
