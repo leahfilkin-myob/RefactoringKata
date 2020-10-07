@@ -6,7 +6,7 @@
 
 Object composition can (and should!) be used to avoid the problem alluded to in the quote above. When we wish to share functionality between multiple classes, instead of creating a single parent class we can
 
-1. Create one or more smaller classes or interfaces that encapsulate the desired functionality (and adhere to the [single responsibility principle](https://github.com/MYOB-Technology/General_Developer/blob/master/things-we-value/solid.md)!)
+1. Create one or more smaller classes or interfaces that encapsulate the desired functionality (and adhere to the [single responsibility principle](https://github.com/MYOB-Technology/General_Developer/blob/main/things-we-value/technical/design/solid.md)!)
 1. Include instances of these in the any new classes we wish to share functionality with
 1. Expose the desired functionality by using these instances
 
