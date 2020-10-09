@@ -8,6 +8,7 @@ The world of AWS is a big one, but here's a couple of important bits that you'll
 
 Log in to AWS with your organisational account using this link and selecting the ```Amazon Web Services``` option: https://adfs.myob.com.au/adfs/ls/IdpInitiatedSignOn.aspx  
 Select the ```lab``` account. This account is used for any spike/study/experimental work.  
+
 Note: The ```dev``` and ```prod``` accounts are used for services such as the Protege dashboard and FMA weekly health check.  
 
 ## The Basics
@@ -31,4 +32,16 @@ Create a simple website with EC2 instances, and forward traffic to it using a Ro
 ## Checkpoint: Exercise 2
 
 That EC2 instance you backed with Route53? Now try declaring the whole thing with Cloudformation.
+
+## Clean up
+
+All done? Nice one! 
+
+When you have finished, don't forget to delete any resources you have created in the AWS account. This will free up some space for your fellow Proteges to create their own resources for learning. It also saves money $$ 
+
+If you think you may want to create similar resources in the future, just make a note of what you did before deleting anything. If you have declared the whole thing in Cloudformation then you should already have a very good record of what you have done.  
+
+### But what about my quorum? 
+If you'd like to keep your resources up while you prepare for your quorum, that's completely fine. Just clean them up once your quorum is done and dusted. 
+
 

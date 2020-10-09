@@ -31,3 +31,13 @@ Now that you have continuous integration working, it's time to implement continu
 * Your deployment pipeline needs to be automated (no manual steps)
 * If after check in your tests pass the system should be deployed to production
 * If after check in one or more of your tests fail the system should **not** be deployed to production
+
+## Clean up
+All done? Nice one! When you have finished, don't forget to delete any resources you have created.  
+
+* Maybe you created a pipeline in Buildkite or some resources in AWS. Go ahead and delete these as it will free up some space for your fellow Proteges to create their own resources for learning. It also saves money $$ 
+* If you think you may want to create similar resources in the future, just make a note of what you did before deleting anything. If you have declared your pipeline or infrastructure in code then you should already have a very good record of what you have done. 
+* If you have finished with your Github repo, archive it.  
+
+### But what about my quorum? 
+If you'd like to keep your resources up while you prepare for your quorum, that's absolutely fine. Just clean them up once your quorum is done and dusted. 
