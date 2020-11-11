@@ -34,6 +34,7 @@ If you're ever unsure of where to store a secret past this document, feel free t
 
 * Share a secret with someone over Slack or Microsoft Teams.
     * Slack and Microsoft Teams are tools for communication in channels (both public and private). These channels can be searched and could be viewable to employees of those companies.
+
 * Send a secret via email.
     * The emails for a user can still be accessed when they leave the company, so any secrets exposed could be used if they are not changed / revoked after a user leaves the company. Emails can also be forwarded without the original sender’s knowledge, which means your secret could be shared without you knowing.
 
@@ -42,12 +43,11 @@ If you're ever unsure of where to store a secret past this document, feel free t
 * Add the secret to a 1Password vault shared with your team.
     * This allows anyone in your team to see the secret whenever they need to. 1Password as a business is paid specifically for this service, so they incorporate an extra level of care to ensure their employees can't access secrets.
 
-* Add your secret to AWS SSM Parameter Store, if the secret is related to an app running in AWS.
+* Add your secret to AWS SSM Parameter Store, if the secret is related to an application running in AWS.
     * This allows anyone with access to that AWS account to pull the secret and will require additional permissions for your application to pull from there.
-    * [See the AWS SSM Parameter Store example below.](#example--aws-ssm-parameter-store)
+    * [See the AWS SSM Parameter Store example below for how to use this.](#example--aws-ssm-parameter-store)
 
-* Share the secret directly with someone using PrivateBin ([helpme.myob.com has a document explaining this process](https://helpme.myob.com/hc/en-us/articles/360048854974)).
-
+* Share the secret directly with someone using PrivateBin ([helpme.myob.com has an article explaining this process](https://helpme.myob.com/hc/en-us/articles/360048854974)).
     * This allows a secret to be shared securely between two parties, where once a secret is viewed it can't be view again without creating a new message. This is used by HelpMe at helpme.myob.com to share secrets with internal MYOB employees when there is an issue with your computer.
 
 ## How do I expose a secret to my application?
@@ -56,7 +56,7 @@ If you're ever unsure of where to store a secret past this document, feel free t
 
 * Store your secret in line within your code.
 ```C#
-var token = "xxxx"
+string token = "xxxx"
 ```
 
 This would expose your token in your source code, if committed, and could be found in the git commit history for your project. If you were to push this to a public GitHub repository, for example, anyone on the internet would be able to find and view your secret.
@@ -71,12 +71,12 @@ export MY_SECRET=xxxx
 Then in your application, add the following to pull the secret from your local environment.
 
 ```C#
-var token = os.GetEnvironment("MY_SECRET")
+string token = Environent.GetEnvironmentVariable("MY_SECRET")
 ```
 
 This means that the secret is only exposed to your local environment are read into your application via _environment variables_ at runtime, where the value for `token` can be seen in memory only.
 
-> Ideally you could so some basic validation to check if `token` has a value, depending on your application or what you're trying to do with the value.
+> Ideally basic validation would be implemented to check if `token` has a value, depending on your application or what you're trying to do with the value.
 
 ---
 
@@ -85,8 +85,8 @@ This means that the secret is only exposed to your local environment are read in
 * Output the contents of token as part of your logs.
 
 ```C#
-var token = "xxxx"
-console.WriteOutput(token)
+string token = "xxxx";
+Console.WriteLine(token);
 ```
 
 While it is okay to do this during local development and testing, if you forgot to remove lines like this once your application starts logging to a place other than your local machine, it could expose your secret somewhere where someone could use it. Be conscientious of where your application logs are being output.
@@ -113,9 +113,11 @@ The below examples are for putting and pulling parameters from AWS SSM Parameter
 ---
 
 **Prerequisites:**
-* You'll need to have the `awscli` installed to run queries against your authed AWS Account. [See the official docs for an installation guide.](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv1.html)
-* You'll also need to install `myob-auth`, to auth yourself to the FMA AWS Account. [See the official docs.](https://github.com/MYOB-Technology/myob-auth#installation).
-> Once installed, run: `myob-auth l --role adfs-fma-dev-admin` to auth to the development FMA AWS Account.
+* Have `awscli` installed (used run queries against your authed AWS Account).
+    * [See the official docs for an installation guide](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv1.html)).
+* Have `myob-auth` installed (used to auth your local machine to an AWS Account).
+    * [See the official docs for an installation guide](https://github.com/MYOB-Technology/myob-auth#installation)).
+* Once both are installed, run `myob-auth l --role adfs-fma-dev-admin` in your terminal to auth your local machine to the development FMA AWS Account.
 
 To add a token to AWS SSM Parameter Store, using a terminal, run:
 
