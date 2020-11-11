@@ -24,7 +24,7 @@ Some common places to store secrets at MYOB are:
 * 1Password ([see the official 1Password docs on how to store secrets](https://support.1password.com/getting-started-mac/)).
     * FMA has been setup with a `FMA-Proteges` vault in 1Password, which proteges can use to store secrets if needed. If you don't have access to this vault, feel free to ask over in [#oa-support](https://myob.slack.com/archives/C3F2M5NFP) for access.
 
-* AWS SSM Parameter Store ([see the AWS SSM Parameter Store example below.](#example--aws-ssm-parameter-store)).
+* AWS SSM Parameter Store ([see the AWS SSM Parameter Store example below.](#example---aws-ssm-parameter-store)).
 
 If you're ever unsure of where to store a secret past this document, feel free to reach out to [#svc-security](https://myob.slack.com/archives/CANT8SKFY) or [#oa-support](https://myob.slack.com/archives/C3F2M5NFP) for technical assistance specific to your context. Just make sure to mention you're a protege in your message :)
 
@@ -45,7 +45,7 @@ If you're ever unsure of where to store a secret past this document, feel free t
 
 * Add your secret to AWS SSM Parameter Store, if the secret is related to an application running in AWS.
     * This allows anyone with access to that AWS account to pull the secret and will require additional permissions for your application to pull from there.
-    * [See the AWS SSM Parameter Store example below for how to use this.](#example--aws-ssm-parameter-store)
+    * [See the AWS SSM Parameter Store example below for how to use this.](#example---aws-ssm-parameter-store)
 
 * Share the secret directly with someone using PrivateBin ([helpme.myob.com has an article explaining this process](https://helpme.myob.com/hc/en-us/articles/360048854974)).
     * This allows a secret to be shared securely between two parties, where once a secret is viewed it can't be view again without creating a new message. This is used by HelpMe at helpme.myob.com to share secrets with internal MYOB employees when there is an issue with your computer.
