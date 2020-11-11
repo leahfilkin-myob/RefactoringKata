@@ -2,9 +2,9 @@
 
 ## What is a secret?
 
-A secret is "something" that could be used to authenticate against "something else"
+A secret is "something" that could be used to authenticate against "something else".
 
-For example, your MYOB password is a secret because when used in combination with your email, someone could login as you to internal MYOB products / services. You wouldn't share your password with others, but to receieve emails from others, you would share your email. That makes your email "sensitive", in which you may want to be selective with who you share you email with.
+For example, your MYOB password is a secret because when used in combination with your email, someone could login as you to internal MYOB products / services. You wouldn't share your password with others, but to receive emails from others, you would share your email. That makes your email "sensitive", in which you may want to be selective with who you share you email with.
 
 Some common examples of secrets are:
 
@@ -22,11 +22,11 @@ Some common examples of secrets are:
 Some common places to store secrets at MYOB are:
 
 * 1Password ([see the official 1Password docs on how to store secrets](https://support.1password.com/getting-started-mac/)).
-    * FMA has been setup with a `FMA-Proteges` vault in 1Password, which proteges can use to store secrets if needed. If you don't have access to this vault, feel free to ask over in #oa-support for access.
+    * FMA has been setup with a `FMA-Proteges` vault in 1Password, which proteges can use to store secrets if needed. If you don't have access to this vault, feel free to ask over in [#oa-support](https://myob.slack.com/archives/C3F2M5NFP) for access.
 
 * AWS SSM Parameter Store ([see the AWS SSM Parameter Store example below.](#example--aws-ssm-parameter-store)).
 
-If you're ever unsure of where to store a secret past this document, feel free to reach out to #ex-security or #oa-support for technical assistance specific to your context. Just make sure to mention you're a protege in your message :)
+If you're ever unsure of where to store a secret past this document, feel free to reach out to [#svc-security](https://myob.slack.com/archives/CANT8SKFY) or [#oa-support](https://myob.slack.com/archives/C3F2M5NFP) for technical assistance specific to your context. Just make sure to mention you're a protege in your message :)
 
 ## How do I share secrets with others?
 
@@ -35,21 +35,20 @@ If you're ever unsure of where to store a secret past this document, feel free t
 * Share a secret with someone over Slack or Microsoft Teams.
     * Slack and Microsoft Teams are tools for communication in channels (both public and private). These channels can be searched and could be viewable to employees of those companies.
 * Send a secret via email.
-    * The emails for a user can still be accessed when they leave the company, so any secrets exposed could be used if they are not changed / revoked after a user leaves. Emails can also be forwarded without the original senders knowledge, which means your secret could be shared without you knowing.
+    * The emails for a user can still be accessed when they leave the company, so any secrets exposed could be used if they are not changed / revoked after a user leaves the company. Emails can also be forwarded without the original sender’s knowledge, which means your secret could be shared without you knowing.
 
 **What you should do:**
 
 * Add the secret to a 1Password vault shared with your team.
-    * This allows anyone in your team to see the secret whenever they need to. 1Password as a business is paid specifically for this service, so they incoperate an extra level of care to ensure their employees can't access secrets.
+    * This allows anyone in your team to see the secret whenever they need to. 1Password as a business is paid specifically for this service, so they incorporate an extra level of care to ensure their employees can't access secrets.
 
 * Add your secret to AWS SSM Parameter Store, if the secret is related to an app running in AWS.
-    * This allows anyone with access to that AWS account to pull the secret, and will require additional permissions for you app to pull from there.
+    * This allows anyone with access to that AWS account to pull the secret and will require additional permissions for your application to pull from there.
     * [See the AWS SSM Parameter Store example below.](#example--aws-ssm-parameter-store)
 
 * Share the secret directly with someone using PrivateBin ([helpme.myob.com has a document explaining this process](https://helpme.myob.com/hc/en-us/articles/360048854974)).
 
     * This allows a secret to be shared securely between two parties, where once a secret is viewed it can't be view again without creating a new message. This is used by HelpMe at helpme.myob.com to share secrets with internal MYOB employees when there is an issue with your computer.
-
 
 ## How do I expose a secret to my application?
 
@@ -60,7 +59,7 @@ If you're ever unsure of where to store a secret past this document, feel free t
 var token = "xxxx"
 ```
 
-This would expose your token in your source code, if commited, and could be found in the git commit history for your project. If you were to push this to a public GitHub repository, for example, anyone on the internet would be able to find and view your secret.
+This would expose your token in your source code, if committed, and could be found in the git commit history for your project. If you were to push this to a public GitHub repository, for example, anyone on the internet would be able to find and view your secret.
 
 **What you could do instead:**
 
@@ -90,7 +89,7 @@ var token = "xxxx"
 console.WriteOutput(token)
 ```
 
-While it is okay to do this during local development and testing, if you forgot to remove this line once your application starts logging to a place other than your local machine, it could expose your secret somewhere where someone could use it.
+While it is okay to do this during local development and testing, if you forgot to remove lines like this once your application starts logging to a place other than your local machine, it could expose your secret somewhere where someone could use it. Be conscientious of where your application logs are being output.
 
 ## Example - AWS SSM Parameter Store
 
@@ -106,12 +105,17 @@ AWS SSM Parameter Store is a key value store used to store secrets in an AWS Acc
     * a single basic string that is encrypted by AWS KMS. Ideally this should be used for secrets.
 
 ---
+
 **Please Note:**
 
-The below examples are for putting and pulling parameters from AWS SSM Parameter Store using the terminal. If you're looking to pull your parameters into your application, [AWS will provide an SDK for you to use](https://docs.aws.amazon.com/cdk/latest/guide/get_ssm_value.html).
+The below examples are for putting and pulling parameters from AWS SSM Parameter Store using the terminal. If you're looking to pull your parameters into your application, [AWS will likely provide an SDK for you to use](https://docs.aws.amazon.com/cdk/latest/guide/get_ssm_value.html).
 
 ---
 
+**Prerequisites:**
+* You'll need to have the `awscli` installed to run queries against your authed AWS Account. [See the official docs for an installation guide.](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv1.html)
+* You'll also need to install `myob-auth`, to auth yourself to the FMA AWS Account. [See the official docs.](https://github.com/MYOB-Technology/myob-auth#installation).
+> Once installed, run: `myob-auth l --role adfs-fma-dev-admin` to auth to the development FMA AWS Account.
 
 To add a token to AWS SSM Parameter Store, using a terminal, run:
 
@@ -129,16 +133,10 @@ aws ssm put-parameter --name "/the/path/i/want/for/my/token" --value "this is my
 To retrieve a token from AWS SSM Parameter Store, using a terminal, run:
 
 ```bash
-# for a String type.
+# for all types (a SecureString type will return an entrypted value).
 aws ssm get-parameter --name "/the/path/i/want/for/my/token"
 
-# for a StringList type.
-aws ssm get-parameter --name "/the/path/i/want/for/my/token"
-
-# for a SecureString type, which will be encrypted.
-aws ssm get-parameter --name "/the/path/i/want/for/my/token"
-
-# for a SecureString type, which will be unencrypted.
+# for a SecureString type, with an unencrypted value.
 aws ssm get-parameter --name "/the/path/i/want/for/my/token" --with-decryption
 ```
 You'll notice that the output of `aws ssm get-parameter` is in JSON format. To retrieve just the output for the `value` field in the payload, add `--query 'Parameter.Value' --output text` to those queries.
