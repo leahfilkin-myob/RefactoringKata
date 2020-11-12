@@ -74,7 +74,7 @@ Then in your application, add the following to pull the secret from your local e
 string token = Environent.GetEnvironmentVariable("MY_SECRET")
 ```
 
-This means that the secret is only exposed to your local environment are read into your application via _environment variables_ at runtime, where the value for `token` can be seen in memory only.
+This means that the secret is only exposed to your local environment and read into your application via _environment variables_ at runtime, where the value for `token` can be seen in memory only.
 
 > Ideally basic validation would be implemented to check if `token` has a value, depending on your application or what you're trying to do with the value.
 
