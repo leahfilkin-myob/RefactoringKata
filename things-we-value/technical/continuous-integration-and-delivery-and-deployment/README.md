@@ -62,12 +62,56 @@ Some of these vendors are paid solutions, and some offer free services you could
 
 Buildkite is the sensible default CI/CD solution at MYOB, managed by the domain [Developer Experience (aka. DLX)](https://myob.slack.com/archives/C5UTN25MW).
 
-* [See their documentation on how to get started using Buildkite](https://hello.hub.myob.com/auto/buildkite.html)
+* [See their documentation on how to get started using Buildkite](https://hello.hub.myob.com/auto/buildkite.html). 
 > Note, you'll need to be connected to the MYOB VPN or connected to the internet in-office to view them.
+
+Below is also a basic outline of what is Buildkite and how you can start using it in your projects now.
+
+### How does Buildkite work at a high level?
+
+Buildkite (the company) have created Buildkite (the software-as-a-service) for anyone to implement CI/CD with their own products or services. Essentially, Buildkite (the company) manages something called the `Buildkite Master`. Customers of Buildkite need to create things called `Buildkite Agents` to connect to the `Buildkite Master`, which are created and managed by the [DLX](https://myob.slack.com/archives/C5UTN25MW) domain for the teams at MYOB. These `Buildkite Agents` are essentially machines, typically in the cloud (aka. AWS), that developers at MYOB can use to implement CI/CD for their projects.
+
+Specifically, these [DLX](https://myob.slack.com/archives/C5UTN25MW) managed Buildkite Agents are AWS EC2 instances in a teams AWS account that connect to the `Buildkite Master` via a CLI tool Buildkite (the company) provides called `buildkite-agent`. Below is a very *HIGH-LEVEL* depiction of what this looks like in running in an AWS account:
+
+![buildkite high-level](./buildkite-high-level.png)
+
+When connecting to the `Buildkite Master`, a `Buildkite Agent` must specify a `queue` to use. The `queue` is used by the `Buildkite Master` to identify and target one-or-many `Buildkite Agents` when running CI/CD automations. Since a `queue` maps to one-or-many `Buildkite Agents`, developers can use a `queue` to target a very specific set of  `Buildkite Agents`. In MYOB's case, DLX have setup their `Buildkite Agents` with a `queue` at the AWS account level, so developers are essentially using a `queue` to mean "which AWS account should I run this CI/CD automation in?"
+
+> If you're unsure of which queue to use, ask [DLX](https://myob.slack.com/archives/C5UTN25MW).
+
+### How do I use Buildkite with my project?
+
+Buildkite uses pipelines to run CI/CD automations for projects. Essentially, you need to setup one of these pipelines for your project when using Buildkite. [Buildkite has some documentation on pipelines here.](https://buildkite.com/docs/pipelines)
+
+DLX have provided a tool for developers to use to create pipelines called `pipe`. [See their documentation on how to install it / create a pipeline for your project](https://hello.hub.myob.com/auto/buildkite.html#installing-pipe). This provides the connection from your GitHub repository to trigger your Buildkite pipeline when you push changes.
+
+When running a build on a `Buildkite Agent`, by default, a `Buildkite Agent` looks for a file called either `pipeline.yml`, `buildkite.yml`, or `.buildkite/pipeline.yml` in the root of your project. This file outlines the CI/CD automations you want to automatically run for your project, where the pipeline is stored as-code with your project.
+
+A basic `pipeline.yml` is:
+
+```yml
+---
+steps:
+
+    - label: "hello world :wave:"
+      command: echo "hello world"
+      agent:
+        queue: katherine-lab
+```
+This `pipeline.yml` outlines a basic pipeline that implements a `command step` to-be-run on a `Buildkite Agent`, which will be run in the AWS account matching the `katherine-lab` queue.
+
+There are a few different types of steps that can be implemented in a `pipeline.yml`. Some examples, with links to their documentation, are:
+
+* [`Command Step`](https://buildkite.com/docs/pipelines/command-step)
+* [`Wait Step`](https://buildkite.com/docs/pipelines/wait-step)
+* [`Block Step`](https://buildkite.com/docs/pipelines/block-step)
+* \+ more ...
+
+From here, try and implement CI/CD into your project using help from [DLX](https://myob.slack.com/archives/C5UTN25MW), the [Buildkite documentation](https://buildkite.com/docs/pipelines/defining-steps), and help from your mentors. Good luck!
 
 ## Further Resources
 
-Below are some further resources around CI/CD:
+Below are some further resources around CI/CD.
 
 **Blogs:**
 * [Agile Alliance - Continuous Integration](https://www.agilealliance.org/glossary/continuous-integrationhttp://)
