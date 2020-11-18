@@ -8,7 +8,7 @@
 
 `Continuous Delivery` is an extension of CI, where developers automate the process for pushing changes directly to production. On top of having automated builds and testing from CI, `Continuous Delivery` aims for developers to have the release process for a product or service automated. However, the timing of when to push it to production is a business decision, so the final deployment is a manual step that triggers an automated process to get the changes to production.
 
-`Continuous Deployment` is virtually identical to `Continuous Delivery`, except that the is no manual process when it come to the release to production. The entire process from commit to release is completely automated, so any working valid change goes all the way to production.
+`Continuous Deployment` is virtually identical to `Continuous Delivery`, except there is no manual process when it come to the release to production. The entire process from commit to release is completely automated, so any working valid change goes all the way to production.
 
 Considering `Continuous Delivery` & `Continuous Deployment` are so closely related, the nickname for the entire process is often known as **CI/CD**.
 
