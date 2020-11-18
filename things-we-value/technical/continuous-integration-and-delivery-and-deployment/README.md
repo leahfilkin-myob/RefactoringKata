@@ -24,38 +24,45 @@ Below is a visualization of a basic CI/CD pipeline at MYOB:
 * [Buildkite (our sensible default)](https://buildkite.com/)
 * [GitHub Actions](https://github.com/features/actions)
 * [GitLab CI](https://about.gitlab.com/stages-devops-lifecycle/)
-* [Jenkins](https://jenkins.io/) 
-* [GoCD](https://www.gocd.org/) 
+* [Jenkins](https://jenkins.io/)
+* [GoCD](https://www.gocd.org/)
 * [TeamCity](https://www.jetbrains.com/teamcity/)
 * [Bamboo](https://www.atlassian.com/software/bamboo)
 * [TravisCI](https://travis-ci.org/)
 * plus more..
 
-Some of these vendors are paid solutions, and some offer free services you could use in your projects. 
+Some of these vendors are paid solutions, and some offer free services you could use in your projects.
 * For example, everyone with a GitHub account has access to `2000` minutes per month of using `GitHub Actions`. If you're playing around with a project outside of MYOB that could use CI/CD, consider giving that a try.
 
 ## Why use CI/CD?
 
 1. **Automated testing occurs for every change.**
     * You'll encounter less "it works on my machine" issues because you have tests automatically running in a consistent way. No longer will you forget to run tests locally with your new changes!
+
 1. **Increased code coverage.**
     * You can setup your CI/CD pipeline to check your test coverage, where every change will provide visibility on how much higher or lower you test coverage is. This will really shame developers who miss adding tests to cover new features!
+
 1. **Deploy your code to production with confidence.**
     * Every change is tested to determine quality and "correctness" before being deployed to production, which allows you to be confident your changes are working as expected.
+
 1. **You're focused on features for your product or service, rather than how to get changes to your customers.**
     * Through using a CI/CD pipeline, you're no longer waiting for a script or process to be finished locally before you can commit your changes. Push and be notified whether it passed or failed instead!
+
 1. **Parallelization in CI/CD allows you to build faster.**
     * You're able to split your build processes and tests across multiple machines, making your feedback loop faster.
+
 1. **Make quality decisions around merging faster.**
     * You can communicate between your CI/CD vendor and source control management platform to notify developers of failing tests before any changes are merged.
+
 1. **By automating how your product or service is released to customers, you essentially have a runbook of how to deploy your product or service manually.**
-    * This is very useful for catching up joining team members on how a product or service runs / is released to customers. 
+    * This is very useful for catching up joining team members on how a product or service runs / is released to customers.
+
 
 ## Buildkite
 
 Buildkite is the sensible default CI/CD solution at MYOB, managed by the domain [Developer Experience (aka. DLX)](https://myob.slack.com/archives/C5UTN25MW).
 
-* [See their documentation on how to get started using Buildkite](https://hello.hub.myob.com/auto/buildkite.html) 
+* [See their documentation on how to get started using Buildkite](https://hello.hub.myob.com/auto/buildkite.html)
 > Note, you'll need to be connected to the MYOB VPN or connected to the internet in-office to view them.
 
 ## Further Resources
