@@ -3,7 +3,7 @@
 ## Contents
 
 * [Architecture](https://github.com/MYOB-Technology/General_Developer/tree/master/things-we-value/technical/architecture)
-* [Continuous Delivery](https://github.com/MYOB-Technology/General_Developer/tree/master/things-we-value/technical/continuous-delivery)
+* [Continuous Integration / Continuous Delivery / Continuous Deployment](./continuous-integration-and-delivery-and-deployment/README.md)
 * [Design](https://github.com/MYOB-Technology/General_Developer/tree/master/things-we-value/technical/design)
 * [Networking](https://github.com/MYOB-Technology/General_Developer/tree/master/things-we-value/technical/networking)
 * [Operations](https://github.com/MYOB-Technology/General_Developer/tree/master/things-we-value/technical/operations)
