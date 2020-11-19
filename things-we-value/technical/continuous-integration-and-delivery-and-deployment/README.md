@@ -71,7 +71,7 @@ Below is also a basic outline of what is Buildkite and how you can start using i
 
 Buildkite (the company) have created Buildkite (the software-as-a-service) for anyone to implement CI/CD with their own products or services. Essentially, Buildkite (the company) manages something called the `Buildkite HQ`. Customers of Buildkite need to create things called `Buildkite Agents` to connect to the `Buildkite HQ`, which are created and managed by the [DLX](https://myob.slack.com/archives/C5UTN25MW) domain for the teams at MYOB. These `Buildkite Agents` are essentially machines, typically in the cloud (aka. AWS), that developers can use to implement CI/CD for their projects.
 
-Specifically, these [DLX](https://myob.slack.com/archives/C5UTN25MW) managed Buildkite Agents are AWS EC2 instances running in a teams AWS account that connect to the `Buildkite HQ` via a CLI tool Buildkite (the company) provides called `buildkite-agent`. Below is a very *HIGH-LEVEL* depiction of what this looks like in running in an AWS account:
+Specifically, these [DLX](https://myob.slack.com/archives/C5UTN25MW) managed Buildkite Agents are AWS EC2 instances running in a teams AWS account that connect to the `Buildkite HQ` via a CLI tool Buildkite (the company) provides called `buildkite-agent`. Below is a very *HIGH-LEVEL* depiction of what this looks like running in an AWS account:
 
 ![buildkite high-level](./buildkite-high-level.png)
 
