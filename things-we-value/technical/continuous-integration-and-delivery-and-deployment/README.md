@@ -120,7 +120,7 @@ For questions around deploying to Jupiter, in general, or via CI/CD, feel free t
 
 Lastly, for questions around "how do I make my product or service more observable" (i.e via logging, tracing, or metrics) ask the Observability team over in the [#t-observability]() Slack channel. They can provide support with things like logging, tracing, and metrics for your products or services, as well as provide training into these things. [They provide some documentation here, which may help you in getting setup with sending logs from your product or service to Sumo Logic.](https://observability.platform.myob.com). Again, you'll need to be on the MYOB VPN, or connected to the internet in an office to view these.
 
-And if you're unsure if any of these channels are right for you to ask for help, ask `@router` in [#oa-support](https://myob.slack.com/archives/C3F2M5NFP). This is a Slack used by developers to ask general operation questions, which are then filtered to the appropriate team to respond. Ask anything you're unsure about there!
+And if you're unsure if any of these channels are right for you to ask for help, ask `@router` in [#oa-support](https://myob.slack.com/archives/C3F2M5NFP). This is a Slack channel used by developers to ask general operation questions, which are then filtered to the appropriate team to respond. Ask anything you're unsure about there!
 
 ## Further Resources
 
