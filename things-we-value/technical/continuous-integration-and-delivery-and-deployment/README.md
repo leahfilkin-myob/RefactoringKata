@@ -83,7 +83,7 @@ When connecting to the `Buildkite HQ`, a `Buildkite Agent` must specify a `queue
 
 Buildkite uses pipelines to run CI/CD automations for projects. Essentially, you need to setup one of these pipelines for your project when using Buildkite. [Buildkite has some documentation on pipelines here.](https://buildkite.com/docs/pipelines)
 
-[DLX](https://myob.slack.com/archives/C5UTN25MW) have provided a tool for developers to use to create pipelines called `pipe`. [See their documentation on how to install it / create a pipeline for your project](https://hello.hub.myob.com/auto/buildkite.html#installing-pipe). This provides the connection from your GitHub repository to trigger your Buildkite pipeline when you push changes. 
+[DLX](https://myob.slack.com/archives/C5UTN25MW) have provided a tool for developers to use to create pipelines called `pipe`. [See their documentation on how to install it / create a pipeline for your project](https://hello.hub.myob.com/auto/buildkite.html#installing-pipe). This provides the connection from your GitHub repository to trigger your Buildkite pipeline when you push changes.
 
 > If you have any issues installing or using `pipe`, reach out to DLX in [#d-devex](https://myob.slack.com/archives/C5UTN25MW) on Slack.
 
@@ -114,11 +114,11 @@ There are a few different types of steps that can be implemented in a `pipeline.
 
 Try and implement CI/CD into one of your projects using a combination the [Buildkite documentation](https://buildkite.com/docs/pipelines/defining-steps) and assistance from your mentor(s).
 
-If you have any questions around CI/CD in general, feel free to reach out to DLX in the [#d-devex](https://myob.slack.com/archives/C5UTN25MW) Slack channel directly. They can assist you with pairing and guidance tailored specific to your project.
+If you have any questions around CI/CD in general, feel free to reach out to DLX in the [#d-devex](https://myob.slack.com/archives/C5UTN25MW) Slack channel directly. They can assist you with pairing and guidance tailored specific to your project. [DLX also provide some documentation around what they do, their tools, and which vendors they support which you may find helpful](http://hello.hub.myob.com/), which you'll need to be on the MYOB VPN, or connected to the internet in an office to view.
 
-For questions around deploying to Jupiter, in general, or via CI/CD, feel free to reach out to the team in the [#svc-jupiter](https://myob.slack.com/archives/C5VLNTMFF) Slack channel using `@jupiter-shield` in your message. [They provide some documentation about Jupiter here](https://docs.jupiter.myob.com/), which you'll need to be on the MYOB VPN, or connected to the internet in an office to view.
+For questions around deploying to Jupiter, in general, or via CI/CD, feel free to reach out to the team in the [#svc-jupiter](https://myob.slack.com/archives/C5VLNTMFF) Slack channel using `@jupiter-shield` in your message. [They provide some documentation about Jupiter here](https://docs.jupiter.myob.com/), which you'll also need to be on the MYOB VPN, or connected to the internet in an office to view.
 
-Lastly, for questions around "how do I make my product or service more observable" (i.e via logging, tracing, or metrics) ask the Observability team over in the [#t-observability]() Slack channel. They can provide support with things like logging, tracing, and metrics for your products or services, as well as provide training into these things.
+Lastly, for questions around "how do I make my product or service more observable" (i.e via logging, tracing, or metrics) ask the Observability team over in the [#t-observability]() Slack channel. They can provide support with things like logging, tracing, and metrics for your products or services, as well as provide training into these things. [They provide some documentation here, which may help you in getting setup with sending logs from your product or service to Sumo Logic.](https://observability.platform.myob.com). Again, you'll need to be on the MYOB VPN, or connected to the internet in an office to view these.
 
 And if you're unsure if any of these channels are right for you to ask for help, ask `@router` in [#oa-support](https://myob.slack.com/archives/C3F2M5NFP). This is a Slack used by developers to ask general operation questions, which are then filtered to the appropriate team to respond. Ask anything your'e unsure about there!
 
