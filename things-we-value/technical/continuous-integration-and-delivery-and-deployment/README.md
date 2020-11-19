@@ -40,7 +40,7 @@ Some of these vendors are paid solutions, and some offer free services you could
     * You'll encounter less "it works on my machine" issues because you have tests automatically running in a consistent way. No longer will you forget to run tests locally with your new changes!
 
 1. **Increased code coverage.**
-    * You can setup your CI/CD pipeline to check your test coverage, where every change will provide visibility on how much higher or lower you test coverage is. This will really shame developers who miss adding tests to cover new features!
+    * You can setup your CI/CD pipeline to check your test coverage, where every change will provide visibility on how much higher or lower you test coverage is.
 
 1. **Deploy your code to production with confidence.**
     * Every change is tested to determine quality and "correctness" before being deployed to production, which allows you to be confident your changes are working as expected.
@@ -52,7 +52,7 @@ Some of these vendors are paid solutions, and some offer free services you could
     * You're able to split your build processes and tests across multiple machines, making your feedback loop faster.
 
 1. **Make quality decisions around merging faster.**
-    * You can communicate between your CI/CD vendor and source control management platform to notify developers of failing tests before any changes are merged.
+    * You can communicate between your CI/CD vendor (eg. Buildkite) and source control management platform (eg. GitHub) to notify developers of failing tests before any changes are merged.
 
 1. **By automating how your product or service is released to customers, you essentially have a runbook of how to deploy your product or service manually.**
     * This is very useful for catching up joining team members on how a product or service runs / is released to customers.
@@ -69,13 +69,13 @@ Below is also a basic outline of what is Buildkite and how you can start using i
 
 ### How does Buildkite work at a high level?
 
-Buildkite (the company) have created Buildkite (the software-as-a-service) for anyone to implement CI/CD with their own products or services. Essentially, Buildkite (the company) manages something called the `Buildkite Master`. Customers of Buildkite need to create things called `Buildkite Agents` to connect to the `Buildkite Master`, which are created and managed by the [DLX](https://myob.slack.com/archives/C5UTN25MW) domain for the teams at MYOB. These `Buildkite Agents` are essentially machines, typically in the cloud (aka. AWS), that developers can use to implement CI/CD for their projects.
+Buildkite (the company) have created Buildkite (the software-as-a-service) for anyone to implement CI/CD with their own products or services. Essentially, Buildkite (the company) manages something called the `Buildkite HQ`. Customers of Buildkite need to create things called `Buildkite Agents` to connect to the `Buildkite HQ`, which are created and managed by the [DLX](https://myob.slack.com/archives/C5UTN25MW) domain for the teams at MYOB. These `Buildkite Agents` are essentially machines, typically in the cloud (aka. AWS), that developers can use to implement CI/CD for their projects.
 
-Specifically, these [DLX](https://myob.slack.com/archives/C5UTN25MW) managed Buildkite Agents are AWS EC2 instances running in a teams AWS account that connect to the `Buildkite Master` via a CLI tool Buildkite (the company) provides called `buildkite-agent`. Below is a very *HIGH-LEVEL* depiction of what this looks like in running in an AWS account:
+Specifically, these [DLX](https://myob.slack.com/archives/C5UTN25MW) managed Buildkite Agents are AWS EC2 instances running in a teams AWS account that connect to the `Buildkite HQ` via a CLI tool Buildkite (the company) provides called `buildkite-agent`. Below is a very *HIGH-LEVEL* depiction of what this looks like in running in an AWS account:
 
 ![buildkite high-level](./buildkite-high-level.png)
 
-When connecting to the `Buildkite Master`, a `Buildkite Agent` must specify a `queue` to use. The `queue` is used by the `Buildkite Master` to identify and target one-or-many `Buildkite Agents` when running CI/CD automations. Since a `queue` maps to one-or-many `Buildkite Agents`, developers can use a `queue` to target a very specific set of  `Buildkite Agents`. In MYOB's case, DLX have setup their `Buildkite Agents` with a `queue` at the AWS account level, so developers are essentially using a `queue` to mean "which AWS account should I run this CI/CD automation in?"
+When connecting to the `Buildkite HQ`, a `Buildkite Agent` must specify a `queue` to use. The `queue` is used by the `Buildkite HQ` to identify and target one-or-many `Buildkite Agents` when running CI/CD automations. Since a `queue` maps to one-or-many `Buildkite Agents`, developers can use a `queue` to target a very specific set of  `Buildkite Agents`. In MYOB's case, DLX have setup their `Buildkite Agents` with a `queue` at the AWS account level, so developers are essentially using a `queue` to mean "which AWS account should I run this CI/CD automation in?"
 
 > If you're unsure of which queue to use for your project, feel free to reach out to DLX in [#d-devex](https://myob.slack.com/archives/C5UTN25MW).
 
