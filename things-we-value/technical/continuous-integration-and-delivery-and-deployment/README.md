@@ -77,13 +77,15 @@ Specifically, these [DLX](https://myob.slack.com/archives/C5UTN25MW) managed Bui
 
 When connecting to the `Buildkite Master`, a `Buildkite Agent` must specify a `queue` to use. The `queue` is used by the `Buildkite Master` to identify and target one-or-many `Buildkite Agents` when running CI/CD automations. Since a `queue` maps to one-or-many `Buildkite Agents`, developers can use a `queue` to target a very specific set of  `Buildkite Agents`. In MYOB's case, DLX have setup their `Buildkite Agents` with a `queue` at the AWS account level, so developers are essentially using a `queue` to mean "which AWS account should I run this CI/CD automation in?"
 
-> If you're unsure of which queue to use for your project, ask [DLX](https://myob.slack.com/archives/C5UTN25MW).
+> If you're unsure of which queue to use for your project, feel free to reach out to DLX in [#d-devex](https://myob.slack.com/archives/C5UTN25MW).
 
 ### How do I use Buildkite with my project?
 
 Buildkite uses pipelines to run CI/CD automations for projects. Essentially, you need to setup one of these pipelines for your project when using Buildkite. [Buildkite has some documentation on pipelines here.](https://buildkite.com/docs/pipelines)
 
-[DLX](https://myob.slack.com/archives/C5UTN25MW) have provided a tool for developers to use to create pipelines called `pipe`. [See their documentation on how to install it / create a pipeline for your project](https://hello.hub.myob.com/auto/buildkite.html#installing-pipe). This provides the connection from your GitHub repository to trigger your Buildkite pipeline when you push changes.
+[DLX](https://myob.slack.com/archives/C5UTN25MW) have provided a tool for developers to use to create pipelines called `pipe`. [See their documentation on how to install it / create a pipeline for your project](https://hello.hub.myob.com/auto/buildkite.html#installing-pipe). This provides the connection from your GitHub repository to trigger your Buildkite pipeline when you push changes. 
+
+> If you have any issues installing or using `pipe`, reach out to DLX in [#d-devex](https://myob.slack.com/archives/C5UTN25MW) on Slack.
 
 When running a build on a `Buildkite Agent`, by default, a `Buildkite Agent` looks for a file called either `pipeline.yml`, `buildkite.yml`, or `.buildkite/pipeline.yml` in the root of your project. This file outlines the CI/CD automations you want to automatically run for your project, where the pipeline is stored as-code with your project.
 
@@ -107,7 +109,18 @@ There are a few different types of steps that can be implemented in a `pipeline.
 * [`Block Step`](https://buildkite.com/docs/pipelines/block-step)
 * \+ more ...
 
-From here, try and implement CI/CD into your project using help from [DLX](https://myob.slack.com/archives/C5UTN25MW), the [Buildkite documentation](https://buildkite.com/docs/pipelines/defining-steps), and help from your mentors. Good luck!
+
+### Where to from here?
+
+Try and implement CI/CD into one of your projects using a combination the [Buildkite documentation](https://buildkite.com/docs/pipelines/defining-steps) and assistance from your mentor(s).
+
+If you have any questions around CI/CD in general, feel free to reach out to DLX in the [#d-devex](https://myob.slack.com/archives/C5UTN25MW) Slack channel directly. They can assist you with pairing and guidance tailored specific to your project.
+
+For questions around deploying to Jupiter, in general, or via CI/CD, feel free to reach out to the team in the [#svc-jupiter](https://myob.slack.com/archives/C5VLNTMFF) Slack channel using `@jupiter-shield` in your message. [They provide some documentation about Jupiter here](https://docs.jupiter.myob.com/), which you'll need to be on the MYOB VPN, or connected to the internet in an office to view.
+
+Lastly, for questions around "how do I make my product or service more observable" (i.e via logging, tracing, or metrics) ask the Observability team over in the [#t-observability]() Slack channel. They can provide support with things like logging, tracing, and metrics for your products or services, as well as provide training into these things.
+
+And if you're unsure if any of these channels are right for you to ask for help, ask `@router` in [#oa-support](https://myob.slack.com/archives/C3F2M5NFP). This is a Slack used by developers to ask general operation questions, which are then filtered to the appropriate team to respond. Ask anything your'e unsure about there!
 
 ## Further Resources
 
