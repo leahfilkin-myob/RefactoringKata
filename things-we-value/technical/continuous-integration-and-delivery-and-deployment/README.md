@@ -87,6 +87,8 @@ Buildkite uses pipelines to run CI/CD automations for projects. Essentially, you
 
 > If you have any issues installing or using `pipe`, reach out to DLX in [#d-devex](https://myob.slack.com/archives/C5UTN25MW) on Slack.
 
+> **Also, DLX don't recommend creating pipelines manually through the Buildkite website by default, as doing this doesn't create the link between your GitHub repository and your Buildkite pipeline. Stay with using the `pipe` tool for now and reach out to [DLX](https://myob.slack.com/archives/C5UTN25MW) directly if you're interested in understanding why they are taking this approach.**
+
 When running a build on a `Buildkite Agent`, by default, a `Buildkite Agent` looks for a file called either `pipeline.yml`, `buildkite.yml`, or `.buildkite/pipeline.yml` in the root of your project. This file outlines the CI/CD automations you want to automatically run for your project, where the pipeline is stored as-code with your project.
 
 A basic `pipeline.yml` is:
