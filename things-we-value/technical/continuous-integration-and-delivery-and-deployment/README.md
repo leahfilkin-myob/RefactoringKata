@@ -99,7 +99,7 @@ steps:
 
     - label: "hello world :wave:"
       command: echo "hello world"
-      agent:
+      agents:
         queue: katherine-lab
 ```
 This `pipeline.yml` outlines a basic pipeline that implements a `command step` to-be-run on a `Buildkite Agent`, which will be run in the AWS account matching the `katherine-lab` queue.
