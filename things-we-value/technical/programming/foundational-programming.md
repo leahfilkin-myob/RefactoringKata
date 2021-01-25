@@ -11,6 +11,7 @@ Below we have identified some basic concepts to focus on ordered by priority to 
 * Arrays
 * Methods & Functions
 * Collections (List, Dictionary/HashSet)
+* Lambda expressions
 * Looping
 * Enums
 * Classes
