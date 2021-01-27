@@ -129,7 +129,7 @@ And if you're unsure if any of these channels are right for you to ask for help,
 Below are some further resources around CI/CD.
 
 **Blogs:**
-* [Agile Alliance - Continuous Integration](https://www.agilealliance.org/glossary/continuous-integrationhttp://)
+* [Agile Alliance - Continuous Integration](https://www.agilealliance.org/glossary/continuous-integration)
 * [Agile Alliance - Continuous Deployment](https://www.agilealliance.org/glossary/continuous-deployment)
 * [Agile Alliance - Lead Time](https://www.agilealliance.org/glossary/lead-time)
 * [Puppet - Continuous Delivery Vs. Continuous Deployment](https://puppet.com/blog/continuous-delivery-vs-continuous-deployment-what-s-diff)
