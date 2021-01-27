@@ -133,7 +133,7 @@ Below are some further resources around CI/CD.
 * [Agile Alliance - Continuous Deployment](https://www.agilealliance.org/glossary/continuous-deployment)
 * [Agile Alliance - Lead Time](https://www.agilealliance.org/glossary/lead-time)
 * [Puppet - Continuous Delivery Vs. Continuous Deployment](https://puppet.com/blog/continuous-delivery-vs-continuous-deployment-what-s-diff)
-* [Atlassian - Continuous integration vs delivery vs deployment](https://www.atlassian.com/continuous-delivery/ci-vs-ci-vs-cd)
+* [Atlassian - Continuous integration vs delivery vs deployment](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment)
 * [Thoughtworks - Continuous Integration](https://www.thoughtworks.com/continuous-integration)
 
 **Books:**
