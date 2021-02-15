@@ -76,3 +76,6 @@ server.Stop();  // never reached...
 
 ----------------------------------------------------------------------
 
+## Continue?
+
+If you're looking for ideas to expand this kata, check out the [Frameworkless Basic Web Application enhancements section](./kata-frameworkless-basic-web-application-enhancements.md).
