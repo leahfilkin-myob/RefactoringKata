@@ -115,7 +115,7 @@ Your product owner wants to you to take advantage of the machine capabilities to
 
 #### Requirements
 
-* When I order a drink and it can be delivered because of a shortage, I want to see a message to the coffee machine console that indicates me the shortage and that a notification has been sent
+* When I order a drink and it can't be delivered because of a shortage, I want to see a message to the coffee machine console that indicates me the shortage and that a notification has been sent
 
 #### Implementation details
 
