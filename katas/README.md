@@ -32,6 +32,9 @@
 ## CI/CD Deployment Pipeline
 * [CI/CD with Containers](kata-cicd/kata-cicd.md)
 
+## Acceleration Phase 2
+* [Basic Web Application](kata-phase-2/kata-basic-web-application.md)
+
 
 ## General Katas
 * [Conference Track Management](kata-conference-track-management/kata-conference-track-management.md)
