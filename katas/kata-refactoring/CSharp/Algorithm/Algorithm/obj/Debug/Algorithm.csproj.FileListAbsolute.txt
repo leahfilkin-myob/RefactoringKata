@@ -1,0 +1,6 @@
+/Users/Leah.Filkin/Documents/MyProjects/GeneralDeveloper/General_Developer/katas/kata-refactoring/CSharp/Algorithm/Algorithm/bin/Debug/Algorithm.dll
+/Users/Leah.Filkin/Documents/MyProjects/GeneralDeveloper/General_Developer/katas/kata-refactoring/CSharp/Algorithm/Algorithm/bin/Debug/Algorithm.pdb
+/Users/Leah.Filkin/Documents/MyProjects/GeneralDeveloper/General_Developer/katas/kata-refactoring/CSharp/Algorithm/Algorithm/obj/Debug/Algorithm.csprojAssemblyReference.cache
+/Users/Leah.Filkin/Documents/MyProjects/GeneralDeveloper/General_Developer/katas/kata-refactoring/CSharp/Algorithm/Algorithm/obj/Debug/Algorithm.csproj.CoreCompileInputs.cache
+/Users/Leah.Filkin/Documents/MyProjects/GeneralDeveloper/General_Developer/katas/kata-refactoring/CSharp/Algorithm/Algorithm/obj/Debug/Algorithm.dll
+/Users/Leah.Filkin/Documents/MyProjects/GeneralDeveloper/General_Developer/katas/kata-refactoring/CSharp/Algorithm/Algorithm/obj/Debug/Algorithm.pdb
