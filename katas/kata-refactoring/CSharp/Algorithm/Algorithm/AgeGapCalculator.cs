@@ -14,33 +14,17 @@ namespace Algorithm
         public PeopleAndTheirAgeGaps FindAgeGap(ChoiceOfAgeGapLength choiceOfAgeGapLength)
         {
             var listOfAgeGaps = new List<PeopleAndTheirAgeGaps>();
-
-            for(var i = 0; i < _people.Count - 1; i++)
-            {
-                for(var j = i + 1; j < _people.Count; j++)
-                {
-                    var r = new PeopleAndTheirAgeGaps();
-                    if(_people[i].BirthDate < _people[j].BirthDate)
-                    {
-                        r.YoungerPerson = _people[i];
-                        r.OlderPerson = _people[j];
-                    }
-                    else
-                    {
-                        r.YoungerPerson = _people[j];
-                        r.OlderPerson = _people[i];
-                    }
-                    r.DifferenceInAge = r.OlderPerson.BirthDate - r.YoungerPerson.BirthDate;
-                    listOfAgeGaps.Add(r);
-                }
-            }
-
+            CategoriesPeoplePairsIntoAges(listOfAgeGaps);
             if(listOfAgeGaps.Count < 1)
             {
                 return new PeopleAndTheirAgeGaps();
             }
+            return FindPersonWithMostAppropriateAgeGap(listOfAgeGaps, choiceOfAgeGapLength);
+        }
 
-            PeopleAndTheirAgeGaps mostAppropriateAgeGap = listOfAgeGaps[0];
+        private PeopleAndTheirAgeGaps FindPersonWithMostAppropriateAgeGap(List<PeopleAndTheirAgeGaps> listOfAgeGaps, ChoiceOfAgeGapLength choiceOfAgeGapLength)
+        {
+            var mostAppropriateAgeGap = listOfAgeGaps[0];
             foreach(var ageGap in listOfAgeGaps)
             {
                 switch(choiceOfAgeGapLength)
@@ -60,8 +44,30 @@ namespace Algorithm
                         break;
                 }
             }
-
             return mostAppropriateAgeGap;
+        }
+
+        private void CategoriesPeoplePairsIntoAges(List<PeopleAndTheirAgeGaps> listOfAgeGaps)
+        {
+            for(var i = 0; i < _people.Count - 1; i++)
+            {
+                for(var j = i + 1; j < _people.Count; j++)
+                {
+                    var pairsOfPeopleAndAgeGap = new PeopleAndTheirAgeGaps();
+                    if(_people[i].BirthDate < _people[j].BirthDate)
+                    {
+                        pairsOfPeopleAndAgeGap.YoungerPerson = _people[i];
+                        pairsOfPeopleAndAgeGap.OlderPerson = _people[j];
+                    }
+                    else
+                    {
+                        pairsOfPeopleAndAgeGap.YoungerPerson = _people[j];
+                        pairsOfPeopleAndAgeGap.OlderPerson = _people[i];
+                    }
+                    pairsOfPeopleAndAgeGap.DifferenceInAge = pairsOfPeopleAndAgeGap.OlderPerson.BirthDate - pairsOfPeopleAndAgeGap.YoungerPerson.BirthDate;
+                    listOfAgeGaps.Add(pairsOfPeopleAndAgeGap);
+                }
+            }
         }
     }
 }
