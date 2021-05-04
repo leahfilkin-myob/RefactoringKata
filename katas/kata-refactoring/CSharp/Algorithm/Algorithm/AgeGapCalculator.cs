@@ -14,7 +14,7 @@ namespace Algorithm
         public PeopleAndTheirAgeGaps FindAgeGap(ChoiceOfAgeGapLength choiceOfAgeGapLength)
         {
             var listOfAgeGaps = new List<PeopleAndTheirAgeGaps>();
-            CategoriesPeoplePairsIntoAges(listOfAgeGaps);
+            CategorisePeoplePairsIntoAges(listOfAgeGaps);
             if(listOfAgeGaps.Count < 1)
             {
                 return new PeopleAndTheirAgeGaps();
@@ -24,30 +24,22 @@ namespace Algorithm
 
         private PeopleAndTheirAgeGaps FindPersonWithMostAppropriateAgeGap(List<PeopleAndTheirAgeGaps> listOfAgeGaps, ChoiceOfAgeGapLength choiceOfAgeGapLength)
         {
-            var mostAppropriateAgeGap = listOfAgeGaps[0];
-            foreach(var ageGap in listOfAgeGaps)
+            var ageGapToReturn = listOfAgeGaps[0];
+            foreach (var ageGap in listOfAgeGaps)
             {
-                switch(choiceOfAgeGapLength)
+                if (choiceOfAgeGapLength == ChoiceOfAgeGapLength.SmallestAgeGap
+                    && ageGap.DifferenceInAge < ageGapToReturn.DifferenceInAge
+                    || choiceOfAgeGapLength == ChoiceOfAgeGapLength.LargestAgeGap
+                    && ageGap.DifferenceInAge > ageGapToReturn.DifferenceInAge)
                 {
-                    case ChoiceOfAgeGapLength.SmallestAgeGap:
-                        if(ageGap.DifferenceInAge < mostAppropriateAgeGap.DifferenceInAge)
-                        {
-                            mostAppropriateAgeGap = ageGap;
-                        }
-                        break;
-
-                    case ChoiceOfAgeGapLength.LargestAgeGap:
-                        if(ageGap.DifferenceInAge > mostAppropriateAgeGap.DifferenceInAge)
-                        {
-                            mostAppropriateAgeGap = ageGap;
-                        }
-                        break;
+                    ageGapToReturn = ageGap;
                 }
             }
-            return mostAppropriateAgeGap;
-        }
+            return ageGapToReturn;
 
-        private void CategoriesPeoplePairsIntoAges(List<PeopleAndTheirAgeGaps> listOfAgeGaps)
+        }
+        
+        private void CategorisePeoplePairsIntoAges(List<PeopleAndTheirAgeGaps> listOfAgeGaps)
         {
             for(var i = 0; i < _people.Count - 1; i++)
             {
