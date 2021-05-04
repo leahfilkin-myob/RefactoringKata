@@ -7,30 +7,6 @@ namespace Algorithm.Test
     public class FinderTests
     {
         [Fact]
-        public void Returns_Empty_Results_When_Given_Empty_List()
-        {
-            var people = new List<Person>();
-            var ageGapCalculator = new AgeGapCalculator(people);
-
-            var result = ageGapCalculator.FindAgeGap(ChoiceOfAgeGapLength.SmallestAgeGap);
-
-            Assert.Null(result.YoungerPerson);
-            Assert.Null(result.OlderPerson);
-        }
-
-        [Fact]
-        public void Returns_Empty_Results_When_Given_One_Person()
-        {
-            var people = new List<Person>() { sue };
-            var ageGapCalculator = new AgeGapCalculator(people);
-
-            var result = ageGapCalculator.FindAgeGap(ChoiceOfAgeGapLength.SmallestAgeGap);
-
-            Assert.Null(result.YoungerPerson);
-            Assert.Null(result.OlderPerson);
-        }
-
-        [Fact]
         public void Returns_Closest_Two_For_Two_People()
         {
             var people = new List<Person>() { sue, greg };
@@ -76,6 +52,27 @@ namespace Algorithm.Test
 
             Assert.Same(sue, result.YoungerPerson);
             Assert.Same(greg, result.OlderPerson);
+        }
+        
+        [Theory]
+        [MemberData(nameof(PeopleData))]
+        public void Throws_Error_If_Less_Than_Two_People(List<Person> people)
+        {
+            Assert.Throws<ArgumentException>(() => new AgeGapCalculator(people));
+        }
+
+        public static IEnumerable<object[]> PeopleData()
+        {
+            yield return new object[]
+            {
+                new List<Person>()
+            };
+            yield return new object[]
+            {
+                new List<Person>() 
+                    {new Person() 
+                        {Name = "Sue", BirthDate = new DateTime(1950, 1, 1)}}
+            };
         }
 
         Person sue = new Person() {Name = "Sue", BirthDate = new DateTime(1950, 1, 1)};

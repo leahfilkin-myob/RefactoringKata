@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace Algorithm
 {
@@ -8,22 +9,16 @@ namespace Algorithm
 
         public AgeGapCalculator(List<Person> people)
         {
+            if (_people.Count < 2)
+            {
+                throw new ArgumentException("Less than two people were provided");
+            }
             _people = people;
         }
 
-        public PeopleAndTheirAgeGaps FindAgeGap(ChoiceOfAgeGapLength choiceOfAgeGapLength)
+        public AgeGapPair FindAgeGap(ChoiceOfAgeGapLength choiceOfAgeGapLength)
         {
-            var listOfAgeGaps = new List<PeopleAndTheirAgeGaps>();
-            CategorisePeoplePairsIntoAges(listOfAgeGaps);
-            if(listOfAgeGaps.Count < 1)
-            {
-                return new PeopleAndTheirAgeGaps();
-            }
-            return FindPersonWithMostAppropriateAgeGap(listOfAgeGaps, choiceOfAgeGapLength);
-        }
-
-        private PeopleAndTheirAgeGaps FindPersonWithMostAppropriateAgeGap(List<PeopleAndTheirAgeGaps> listOfAgeGaps, ChoiceOfAgeGapLength choiceOfAgeGapLength)
-        {
+            var listOfAgeGaps = CategorisePeoplePairsIntoAges();
             var ageGapToReturn = listOfAgeGaps[0];
             foreach (var ageGap in listOfAgeGaps)
             {
@@ -36,16 +31,16 @@ namespace Algorithm
                 }
             }
             return ageGapToReturn;
-
         }
         
-        private void CategorisePeoplePairsIntoAges(List<PeopleAndTheirAgeGaps> listOfAgeGaps)
+        private List<AgeGapPair> CategorisePeoplePairsIntoAges()
         {
+            var listOfAgeGaps = new List<AgeGapPair>();
             for(var i = 0; i < _people.Count - 1; i++)
             {
                 for(var j = i + 1; j < _people.Count; j++)
                 {
-                    var pairsOfPeopleAndAgeGap = new PeopleAndTheirAgeGaps();
+                    var pairsOfPeopleAndAgeGap = new AgeGapPair();
                     if(_people[i].BirthDate < _people[j].BirthDate)
                     {
                         pairsOfPeopleAndAgeGap.YoungerPerson = _people[i];
@@ -60,6 +55,7 @@ namespace Algorithm
                     listOfAgeGaps.Add(pairsOfPeopleAndAgeGap);
                 }
             }
+            return listOfAgeGaps;
         }
     }
 }
