@@ -1,9 +1,0 @@
-/Users/Leah.Filkin/Documents/MyProjects/GeneralDeveloper/General_Developer/katas/kata-refactoring/CSharp/Algorithm/Algorithm/obj/Debug/netcoreapp3.1/Algorithm.csprojAssemblyReference.cache
-/Users/Leah.Filkin/Documents/MyProjects/GeneralDeveloper/General_Developer/katas/kata-refactoring/CSharp/Algorithm/Algorithm/obj/Debug/netcoreapp3.1/Algorithm.AssemblyInfoInputs.cache
-/Users/Leah.Filkin/Documents/MyProjects/GeneralDeveloper/General_Developer/katas/kata-refactoring/CSharp/Algorithm/Algorithm/obj/Debug/netcoreapp3.1/Algorithm.AssemblyInfo.cs
-/Users/Leah.Filkin/Documents/MyProjects/GeneralDeveloper/General_Developer/katas/kata-refactoring/CSharp/Algorithm/Algorithm/obj/Debug/netcoreapp3.1/Algorithm.csproj.CoreCompileInputs.cache
-/Users/Leah.Filkin/Documents/MyProjects/GeneralDeveloper/General_Developer/katas/kata-refactoring/CSharp/Algorithm/Algorithm/bin/Debug/netcoreapp3.1/Algorithm.deps.json
-/Users/Leah.Filkin/Documents/MyProjects/GeneralDeveloper/General_Developer/katas/kata-refactoring/CSharp/Algorithm/Algorithm/bin/Debug/netcoreapp3.1/Algorithm.dll
-/Users/Leah.Filkin/Documents/MyProjects/GeneralDeveloper/General_Developer/katas/kata-refactoring/CSharp/Algorithm/Algorithm/bin/Debug/netcoreapp3.1/Algorithm.pdb
-/Users/Leah.Filkin/Documents/MyProjects/GeneralDeveloper/General_Developer/katas/kata-refactoring/CSharp/Algorithm/Algorithm/obj/Debug/netcoreapp3.1/Algorithm.dll
-/Users/Leah.Filkin/Documents/MyProjects/GeneralDeveloper/General_Developer/katas/kata-refactoring/CSharp/Algorithm/Algorithm/obj/Debug/netcoreapp3.1/Algorithm.pdb
